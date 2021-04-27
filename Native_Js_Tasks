@@ -1,0 +1,8513 @@
+Target 66.3
+
+Solve the previous two problems through the for loop.
+
+let arr = [[1, 2, 3], [4, 5], [6]];
+let the sum = 0;
+for (let i = 0; i <arr.length; i ++) {
+for (let j = 0; j <arr [i] .length; j ++) {
+sum = sum + arr [i] [j];
+}
+}
+console.log (amount);
+
+let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+let the sum = 0;
+for (let i = 0; i <arr.length; ++) {
+for (let j = 0; j <arr [i] .length; j ++) {
+for (let k = 0; k <arr [i] [j] .length; k ++)
+sum = sum + arr [i] [j] [k];
+}
+}
+console.log (amount);
+
+Target 67.1
+
+Form the following array with two nested loops:
+
+[[1, 2, 3, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]]
+
+let arr = [];
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+for (let j = 0; j <5; j ++) {
+arr [i] [j] = j + 1;
+}
+}
+console.log (arr);
+
+Target 67.2
+
+Form the following array with two nested loops:
+
+[['x', 'x', 'x', 'x'], ['x', 'x', 'x', 'x'], ['x', 'x', 'x', 'x']]
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+for (let j = 0; j <4; j ++) {
+arr [i] [j] = 'x';
+}
+
+}
+console.log (arr);
+
+Target 67.3
+
+Form the following array with three nested loops:
+
+[
+[
+[1, 2, 3, 4, 5],
+[1, 2, 3, 4, 5],
+],
+[
+[1, 2, 3, 4, 5],
+[1, 2, 3, 4, 5],
+],
+[
+[1, 2, 3, 4, 5],
+[1, 2, 3, 4, 5],
+],
+]
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+for (let j = 0; j <2; j ++) {
+arr [i] [j] = [];
+for (let k = 0; k <5; k ++) {
+arr [i] [j] [k] = k + 1;
+}
+}
+
+}
+console.log (arr);
+
+Target 67.4
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+
+}
+
+console.log (arr);
+
+Target 67.5
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = '';
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+console.log (arr);
+
+Target 67.6
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+
+Target 67.7
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [j] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+
+Target 67.8
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j + 1;
+}
+}
+
+console.log (arr);
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = []
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j + 1;
+}
+}
+console.log (arr);
+
+Target 67.9
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] == [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+
+Target 67.10
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+
+
+///////////////////////////
+
+Target 67.11
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = '';
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j;
+}
+}
+
+console.log (arr);
+
+Target 67.12
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr.push (j);
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 1; j <= 5; j ++) {
+arr [i] .push (j);
+}
+}
+
+console.log (arr);
+
+Target 67.13
+
+The author of the following code wanted to make a two-dimensional array:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [j] [i] = j;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j;
+}
+}
+
+console.log (arr);
+
+Target 67.14
+
+The author of the following code wanted to make a two-dimensional array:
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <= 5; j ++) {
+arr [i] [j] = j;
+}
+}
+
+console.log (arr);
+
+Target 67.15
+
+Form the following array with two nested loops:
+
+[[1, 2], [3, 4], [5, 6], [7, 8]]
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <4; i ++) {
+arr [i] = []
+for (let j = 0; j <2; j ++) {
+arr [i] [j] = k ++;
+}
+}
+console.log (arr);
+
+Target 67.16
+
+Form the following array with two nested loops:
+
+[[2, 4, 6], [8, 10, 12], [14, 16, 18], [20, 22, 24]]
+
+
+let arr = [];
+
+for (let i = 0, k = 2; i <4; i ++) {
+arr [i] = []
+for (let j = 0; j <3; j ++, k + = 2) {
+arr [i] [j] = k;
+}
+}
+console.log (arr);
+
+Target 67.17
+
+Form the following 3D array with three nested loops:
+
+[[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
+
+let arr = [];
+let n = 1;
+
+for (let i = 0; i <1; i ++) {
+arr [i] = [];
+for (let j = 0; j <4; j ++) {
+arr [i] [j] = [];
+for (let k = 0; k <2; k ++) {
+arr [i] [j] [k] = n ++;
+}
+}
+}
+
+console.log (arr);
+
+Target 67.18
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let k = 1;
+let arr = [];
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+
+Target 67.19
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k ++;
+}
+}
+
+console.log (arr);
+
+Target 67.20
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k--;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+
+console.log (arr);
+
+Target 67.21
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+let k;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+console.log (arr);
+//////////////////////
+
+
+Target 67.22
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k ++;
+}
+}
+console.log (arr);
+
+Target 67.23
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0, k ++; j <3; j ++) {
+arr [i] [j] = k;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k ++;
+}
+}
+
+console.log (arr);
+
+Target 67.24
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++; k ++) {
+arr [i] [j] = k;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++, k ++) {
+arr [i] [j] = k;
+}
+}
+
+console.log (arr);
+
+Target 67.25
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = ++ k;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k ++;
+}
+}
+
+console.log (arr);
+
+Target 67.26
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [k] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+let k = 1;
+
+for (let i = 0; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++) {
+arr [i] [j] = k;
+k ++;
+}
+}
+
+console.log (arr);
+
+Target 67.27
+
+The author of the following code wanted to make an array [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+
+let arr = [];
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; k ++) {
+arr [i] [j] = k;
+}
+}
+
+console.log (arr);
+The written code, however, does not do it. Find and correct the author's mistake.
+
+let arr = [];
+let k = 1;
+
+for (let i = 0, k = 1; i <3; i ++) {
+arr [i] = [];
+
+for (let j = 0; j <3; j ++, k ++) {
+arr [i] [j] = k;
+}
+}
+console.log (arr);
+
+Target 68.1
+
+Given the following object:
+
+let obj = {
+key1: {
+key1: 1,
+key2: 2,
+key3: 3,
+},
+key2: {
+key1: 4,
+key2: 5,
+key3: 6,
+},
+key3: {
+key1: 7,
+key2: 8,
+key3: 9,
+},
+}
+Find the sum of the elements of the given object.
+
+let sum = obj.key1.key1 + obj.key1.key2 + obj.key1.key3 + obj.key2.key1 + obj.key2.key2 + obj.key2.key3 + obj.key3.key1 + obj.key3.key2 + obj.key3.key3;
+
+console.log (sum);
+
+Target 68.2
+
+Given the following object:
+
+let obj = {
+one: {
+1: 'a1',
+2: 'a2',
+3: 'a3',
+},
+2: {
+1: 'b1',
+2: 'b2',
+3: 'b3',
+},
+3: {
+1: 'c1',
+2: 'c2',
+3: 'c3',
+},
+}
+Display the element 'b2' and the element 'c1'.
+console.log (obj [2] [2]);
+console.log (obj [3] [1]);
+
+Target 68.3
+
+Given the following object:
+
+let obj = {
+key1: {
+a: 1, b: 2, c: {
+d: 3,
+e: 4,
+}, f: 5,
+},
+key2: {
+g: 6, h: 7,
+},
+}
+Find the sum of all number elements.
+
+
+
+let sum = obj.key1.a + obj.key1.b + obj.key1.c.d + obj.key1.c.e + obj.key1.f + obj.key2.g + obj.key2.h;
+console.log (sum);
+
+Target 69.1
+
+Given the following object:
+
+let obj = {
+one: {
+1: 11,
+2: 12,
+3: 13,
+},
+2: {
+1: 21,
+2:22,
+3:23,
+},
+3: {
+1:24,
+2:25,
+3:26,
+},
+}
+Using loops, find the sum of the elements of this object.
+
+let sum = 0;
+
+for (let key in obj) {
+let subObj = obj [key]
+for (let subKey in subObj) {
+sum + = subObj [subKey];
+}
+}
+
+console.log (sum);
+
+Target 70.1
+
+Given the following object with the names of the months:
+
+let months = {
+'ru': [
+'January',
+'February',
+'March',
+'April',
+'May',
+'June',
+'July',
+'August',
+'September',
+'October',
+'November',
+'December',
+],
+'en': [
+'january
+',
+'february',
+'march',
+'april',
+'may',
+'june',
+'july',
+'august',
+'september',
+'october',
+'november',
+'december',
+],
+};
+The following variables are also given:
+
+let lang = 'ru'; // can be either 'ru' or 'en'
+let month = 5; // number from 0 to 11
+Display the name of the month corresponding to the values ​​of the lang and month variables.
+
+console.log (months [lang] [month]);
+
+Target 70.2
+
+Given a structure like this for storing a to-do list for years, months and days:
+
+let affairs = {
+'2018': {
+eleven: {
+29: ['case111', 'case112', 'case113'],
+30: ['case121', 'case122', 'case123'],
+},
+12: {
+30: ['case211', 'case212', 'case213'],
+31: ['case221', 'case222', 'case223'],
+},
+},
+'2019': {
+12: {
+29: ['case311', 'case312', 'case313'],
+30: ['case321', 'case322', 'case323'],
+31: ['case331', 'case332', 'case333'],}},
+}
+
+
+Let also 3 variables be given, containing year, month and day. Print the case corresponding to the values ​​of the variables.
+
+
+console.log (affairs [year] [month] [day] [1]);
+
+Target 70.3
+
+The author of the following code wanted to display an element with the value '24':
+
+let obj = {
+key1: {
+key2: '12',
+key3: '13',
+},
+key2: {
+key4: '24',
+key5: '25',
+},
+}
+
+let key1 = 'key2';
+let key2 = 'key4';
+console.log (obj ['key1'] [key2]);
+The code, however, does not output what the author expected. Correct the mistake.
+
+let obj = {
+key1: {
+key2: '12',
+key3: '13',
+},
+key2: {
+key4: '24',
+key5: '25',
+},
+}
+
+let key1 = 'key2';
+let key2 = 'key4';
+console.log (object [key1] [key2]);
+
+// Problem 70.5
+
+// The author of the following code wanted to display an element with the value '24':
+
+// let obj = {
+// key1: {
+// key2: '12',
+// key3: '13',
+//},
+// key2: {
+// key4: '24',
+// key5: '25',
+//},
+//}
+
+// let key1 = 'key2';
+// let key2 = 'key4';
+// console.log (obj.key1 ['key2']);
+// The code, however, does not output what the author expected. Correct the mistake.
+
+let obj = {
+key1: {
+key2: '12',
+key3: '13',
+},
+key2: {
+key4: '24',
+key5: '25',
+},
+}
+
+let key1 = 'key2';
+let key2 = 'key4';
+console.log (object [key1] [key2]);
+
+// Problem 70.4
+
+// The author of the following code wanted to display an element with the value '24':
+
+// let obj = {
+// key1: {
+// key2: '12',
+// key3: '13',
+//},
+// key2: {
+// key4: '24',
+// key5: '25',
+//},
+//}
+
+// let key1 = 'key2';
+// let key2 = 'key4';
+// console.log (obj.key1.key2);
+// The code, however, does not output what the author expected. Correct the mistake.
+
+let obj = {
+key1: {
+key2: '12',
+key3: '13',
+},
+key2: {
+key4: '24',
+key5: '25',
+},
+}
+
+let key1 = 'key2';
+let key2 = 'key4';
+console.log (object [key1] [key2]);
+
+// Problem 70.6
+
+// The author of the following code wanted to display an element with the value '24':
+
+// let obj = {
+// key1: {
+// key2: '12',
+// key3: '13',
+//},
+// key2: {
+// key4: '24',
+// key5: '25',
+//},
+//}
+
+// let key1 = 'key2';
+// console.log (obj ['key1'] ['key4']);
+// The code, however, does not output what the author expected. Correct the mistake.
+
+let obj = {
+key1: {
+key2: '12',
+key3: '13',
+},
+key2: {
+key4: '24',
+key5: '25',
+},
+}
+
+let key1 = 'key2';
+console.log (obj [key1] ['key4']);
+
+Target 71.1
+
+Given the following array of workers:
+
+let employees = [
+{
+name: 'name1',
+salary: 300,
+},
+{
+name: 'name2',
+salary: 400,
+},
+{
+name: 'name3',
+salary: 500,
+},
+];
+
+console.log (employees [0] ['salary']);
+console.log (employees [1] ['salary']);
+Display the sum of the salaries of the first and second employees.
+
+Target 71.2
+
+Given the following object with students:
+
+let students = {
+'boys': ['Kolya', 'Vasya', 'Petya'],
+'girls': ['Dasha', 'Masha', 'Lena'],
+};
+
+console.log (students ['boys'] [1]);
+console.log (students ['girls'] [2])
+Display the element 'Vasya' and the element 'Lena'.
+
+// Problem 72.1
+
+// Given the following array of workers:
+
+// let employees = [
+// {
+// name: 'name1',
+// salary: 300,
+//},
+// {
+// name: 'name2',
+// salary: 400,
+//},
+// {
+// name: 'name3',
+// salary: 500,
+//},
+//];
+// Display the details of each employee in the format name - salary.
+
+let employees = [
+{
+name: 'name1',
+salary: 300,
+},
+{
+name: 'name2',
+salary: 400,
+},
+{
+name: 'name3',
+salary: 500,
+},
+];
+
+for (let employees' money) {
+console.log (money.name);
+console.log (money. salary);
+}
+
+// Problem 72.2
+
+// Given the following array of workers:
+
+// let employees = [
+// {
+// name: 'name1',
+// salary: 300,
+//},
+// {
+// name: 'name2',
+// salary: 400,
+//},
+// {
+// name: 'name3',
+// salary: 500,
+//},
+//];
+// Display the sum of the salaries of all employees.
+
+let sum = 0;
+let employees = [
+{
+name: 'name1',
+salary: 300,
+},
+{
+name: 'name2',
+salary: 400,
+},
+{
+name: 'name3',
+salary: 500,
+},
+];
+
+for (let employees' money) {
+amount = amount + money. salary;
+}
+console.log (amount);
+
+// Problem 72.3
+
+// Given the following array of workers:
+
+// let employees = [
+// {
+// name: 'name1',
+// salary: 300,
+// age: 28,
+//},
+// {
+// name: 'name2',
+// salary: 400,
+// age: 29,
+//},
+// {
+// name: 'name3',
+// salary: 500,
+// age: 30,
+//},
+// {
+// name: 'name4',
+// salary: 600,
+// age: 31,
+//},
+// {
+// name: 'name5',
+// salary: 700,
+// age: 32,
+//},
+//];
+// Display the sum of the salaries of those workers who are 30 or older.
+
+let sum = 0;
+let employees = [
+{
+name: 'name1',
+salary: 300,
+age: 28,
+},
+{
+name: 'name2',
+salary: 400,
+age: 29,
+},
+{
+name: 'name3',
+salary: 500,
+age: 30,
+},
+{
+name: 'name4',
+salary: 600,
+age: 31,
+},
+{
+name: 'name5',
+salary: 700,
+age: 32,
+},
+];
+
+for (let money of employees) {
+if (money.age> = 30) {
+amount = amount + money. the salary;
+}
+}
+console.log (amount);
+
+// Problem 72.4
+
+// Given the following array of workers, in which the dismissed field stores information about whether the worker is dismissed or not (true - dismissed):
+
+// let employees = [
+// {
+// name: 'name1',
+// salary: 300,
+// dismissed: false,
+//},
+// {
+// name: 'name2',
+// salary: 400,
+// dismissed: true,
+//},
+// {
+// name: 'name3',
+// salary: 500,
+// dismissed: false,
+//},
+// {
+// name: 'name4',
+// salary: 600,
+// dismissed: true,
+//},
+// {
+// name: 'name5',
+// salary: 700,
+// rejected: false,
+//},
+//];
+// Display the names and salaries of undocumented workers.
+
+let the sum = 0;
+let employees = [
+{
+name: 'name1',
+salary: 300,
+fired: false,
+},
+{
+name: 'name2',
+salary: 400,
+fired: true,
+},
+{
+name: 'name3',
+salary: 500,
+fired: false,
+},
+{
+name: 'name4',
+salary: 600,
+fired: true,
+},
+{
+name: 'name5',
+salary: 700,
+fired: false,
+},
+];
+
+for (let employees' money) {
+if (money.dismissed == false) {
+sum = sum + money.salary;
+}
+}
+console.log (amount);
+
+// Problem 72.5
+
+// Given the following structure with data:
+
+// let data = {
+// one: [
+// 'data11',
+// 'data12',
+// 'data13',
+//],
+// 2: [
+// 'data21',
+// 'data22',
+// 'data23',
+//],
+// 3: [
+// 'data31',
+// 'data32',
+// 'data33',
+// 'data34',
+// 'data35',
+//],
+// four: [
+// 'data41',
+// 'data42',
+//],
+//};
+// Use nested loops to display all data lines.
+
+let data = {
+1: ['data12',
+'data11',
+
+'data13',
+],
+2: [
+'data21',
+'data22',
+'data23',
+],
+3: [
+'data31',
+'data32',
+'data33',
+'data34',
+'data35',
+],
+four: [
+'data41',
+'data42',
+],
+};
+
+for (let data group) {
+for (let dataSel of data [group]) {
+console.log (dataSel)
+}
+}
+
+// Problem 72.6
+
+// Given the following structure with data:
+
+// let data = [
+// {
+// 1: 'data11',
+// 2: 'data12',
+// 3: 'data13',
+// 4: 'data14',
+//},
+// {
+// 1: 'data21',
+// 2: 'data22',
+// 3: 'data33',
+//},
+// {
+// 1: 'data31',
+// 2: 'data32',
+//},
+//];
+// The number of objects in the array and the number of elements in the object can be arbitrary.
+
+// Use nested loops to display all data lines.
+
+
+let data = [
+{
+1: 'data11',
+2: 'data12',
+3: 'data13',
+4: 'data14',
+},
+{
+1: 'data21',
+2: 'data22',
+3: 'data33',
+},
+{
+1: 'data31',
+2: 'data32',
+},
+];
+
+for (let data group) {
+for (let subSel in group) {
+console.log (group [subSel]);
+}
+}
+
+// Problem 72.7
+
+// Given the following structure with data:
+
+// let data = [
+// {
+// one: [
+// 'data111',
+// 'data112',
+// 'data113',
+//],
+// 2: [
+// 'data121',
+// 'data122',
+// 'data123',
+//],
+//},
+// {
+// one: [
+// 'data211',
+// 'data212',
+// 'data213',
+//],
+// 2: [
+// 'data221',
+// 'data222',
+// 'data223',
+// 'data224',
+//],
+// 3: [
+// 'data231', // 'data233',
+// 'data232',
+
+// 'data234',
+// 'data235',
+//],
+//},
+// {
+// one: [
+// 'data411',
+// 'data412',
+// 'data413',
+//],
+// 2: [
+// 'data421',
+//],
+//},
+//];
+// Use nested loops to display all data lines.
+
+let data = [
+{
+one: [
+'data111',
+'data112',
+'data113',
+],
+2: [
+'data121',
+'data122',
+'data123',
+],
+},
+{
+one: [
+'data211',
+'data212',
+'data213',
+],
+2: [
+'data221',
+'data222',
+'data223',
+'data224',
+],
+3: [
+'data231',
+'data232',
+'data233',
+'data234',
+'data235',
+],
+},
+{
+one: [
+'data411',
+'data412',
+'data413',
+],
+2: [
+'data421',
+],
+},
+];
+
+for (let data group) {
+for (let the data group be in the group) {
+for (let dataSel group [dataGroup]) {
+console.log (dataSel);
+
+
+
+// Problem 73.1
+
+// Given the following array with users:
+
+// let users = [
+// {
+// name: 'name1',
+// surname: 'surname1',
+// age: 30,
+//},
+// {
+// name: 'name2',
+// surname: 'surname2',
+// age: 31,
+//},
+// {
+// name: 'name2',
+// surname: 'surname2',
+// age: 32,
+//},
+//];
+// Add another user to this array.
+
+let users = [
+{
+name: 'name1',
+surname: 'surname1',
+age: 30,
+},
+{
+name: 'name2',
+surname: 'surname2',
+age: 31 years old,
+},
+{
+name: 'name2',
+surname: 'surname2',
+age: 32,
+},
+];
+
+users.push ({
+name: 'name4',
+surname: 'surname4',
+age: 34,
+})
+
+
+console.log (cases);
+
+// Problem 74.2
+
+// Add a new student to the 'subgroup11'.
+
+let student = {
+'group1': {
+'subgroup11': ['student111', 'student112', 'student113'],
+'subgroup12': ['student121', 'student122', 'student123'],
+},
+'group2': {
+'subgroup21': ['student211', 'student212', 'student213'],
+'subgroup22': ['student221'
+,
+'student222', 'student223'],}, 'group3': {
+'subgroup31': ['student311', 'student312', 'student313'],
+'subgroup32': ['student321', 'student322', '
+student323 '],},
+};
+
+student.group1.subgroup11.push ('student114');
+console.log (students);
+
+// Problem 74.3
+
+// Add another subgroup to the first group.
+
+let student = {
+'group1': {
+'subgroup11': ['student111', 'student112', 'student113'],
+'subgroup12': ['student121', 'student122', 'student123'],
+},
+'group2': {
+'subgroup21': ['student211', 'student212', 'student213'],
+'subgroup22': ['student221'
+,
+'student222', 'student223'],}, 'group3': {
+'subgroup31': ['student311', 'student312', 'student313'],
+'subgroup32': ['student321', 'student322', 'student323'],
+},
+};
+
+student.group1.subgroup13 = [];
+student.group1.subgroup13.push ('student131', 'student132')
+
+console.log (students);
+
+// Problem 74.5
+
+// Given a structure like this for storing a to-do list for certain dates:
+
+let affairs = {
+'2019-12-28': ['case11', 'case12', 'case13'],
+'2019-12-29': ['case21', 'case22', 'case23'],
+'2019-12-30': ['case31', 'case32', 'case33'],
+}
+// Make an addAffair function that will add a new case on a given date. Let the function take the date as the first parameter, and the case as the second.
+
+
+function addAffair (data, work) {
+if (affairs.data === undefined) {
+affairs [data] = [];
+}
+affairs [data] .push (work);
+}
+
+addAffair ('2019-12-31', 'case41');
+
+let student = {
+'group1': {
+'subgroup11': ['student111', 'student112', 'student113'],
+'subgroup12': ['student121', 'student122', 'student123'],
+},
+'group2': {
+'subgroup21': ['student211', 'student212', 'student213'],
+'subgroup22': ['student221'
+,
+'student222', 'student223'],}, 'group3': {
+'subgroup31': ['student311', 'student312', 'student313'],
+'subgroup32': ['student321', 'student322', 'student323'],
+},
+};
+// Make the addStudent function,
+
+
+if (students [group] === undefined) {
+students [group] = [];
+}
+if (students [group] [subgroup] === undefined) {
+students [group] [subgroup] = [];
+}
+
+students [group] [subgroup] .push (name)
+}
+
+addStudent ('group3', 'subgroup31', 'student314');
+console.log (students);
+
+
+// // Make a function addAffair that will add a new case on a given date. Let the function take as the first parameter the year, the second - the month, the third - the day, and the fourth - the case.
+
+function addAffair (year, month, days, work) {
+if (affairs [year] === undefined) {
+affairs [year] = [];
+}
+if (affairs [year] [month] === undefined) {
+affairs [year] [month] = [];
+}
+if (affairs [year] [month] [days] === undefined) {
+affairs [year] [month] [days] = [];
+}
+affairs [year] [month] [days] .push (work);
+}
+
+// Problem 75.1
+
+// Given an object like this:
+let arr = [];
+let data = {
+2018: {
+eleven: {
+29: [1, 2, 3],
+30: [4, 5],
+},
+12: {
+30: [6, 7],
+31: [8, 9],
+},
+},
+2019: {
+12: {
+29: [10, 11],
+30: [12, 13],
+31: [14, 15],
+}
+},
+}
+// Write all the elements of this object into an array, like this:
+
+// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+
+for (let year in data) {
+for (let month in data [year]) {
+for (let days in data [year] [month]) {
+for (let data work [year] [month] [days])
+arr.push (work);
+}
+}
+}
+console.log (about);
+
+// Problem 75.2
+
+// Given an array:
+
+let issues = [
+{
+date: '2019-12-29',
+event: 'name1',
+},
+{
+date: '2019-12-31',
+event: 'name2',
+},
+{
+date: '2019-12-29',
+event: 'name3',
+},
+{
+date: '2019-12-30',
+event: 'name4',
+},
+{
+date: '2019-12-29',
+event: 'name5',
+},
+{
+date: '2019-12-31',
+event: 'name6',
+},
+{
+date: '2019-12-29',
+event: 'name7',
+},
+{
+date: '2019-12-30',
+event: 'name8',
+},
+{
+date: '2019-12-30',
+event: 'name9',
+},
+]
+// Get unique dates from this array, that is, here
+
+So:
+
+// ['2019-12-29', '2019-12-30', '2019-12-31']
+
+let arr = []
+for (let obj of affairs) {
+if (obj ['date'] === '2019-12-29') {
+arr [0] = obj ['date'];
+}
+if (obj ['date'] === '2019-12-30') {
+arr [1] = obj ['date'];
+}
+if (obj ['date'] === '2019-12-31') {
+arr [2] = obj ['date'];
+}
+}
+
+console.log (arr);
+// Problem 75.3
+
+// Given an array with users:
+
+let users = [
+{
+name: 'name1',
+age: 31,
+active: true,
+},
+{
+name: 'name2',
+age: 32,
+active: false,
+},
+{
+name: 'name3',
+age: 33,
+active: true,
+},
+{
+name: 'name4',
+age: 34,
+active: false,
+},
+{
+name: 'name5',
+age: 35,
+active: true,
+},
+];
+// Display those users for which the value of the active key is true.
+
+for (let obj of users) {
+if (obj.active === true) {
+console.log (object name);
+}
+}
+// Problem 75.4
+
+// Given cities and their countries to the following structure:
+
+let data = [
+{
+country: 'Russia',
+city: 'Moscow',
+},
+{
+country: 'Belarus',
+city: 'Minsk',
+},
+{
+country: 'Russia',
+city: 'Peter',
+},
+{
+country: 'Russia',
+city: 'Vladivostok',
+},
+{
+country: 'Ukraine',
+city: 'Lviv',
+},
+{
+country: 'Belarus',
+city: 'Mogilev',
+},
+{
+country: 'Ukraine',
+city: 'Kiev',];
+},
+
+// Count the number of countries.
+
+let k = 0;
+
+for (let obj of data) {
+if (obj.country! = undefined) {
+k ++
+}
+
+}
+
+console.log (k);
+// Problem 75.5
+
+// Given such a to-do list for a specific date:
+
+let affairs = {
+'2019-12-31': ['array of cases'],
+'2018-11-29': ['array of cases'],
+'2018-11-30': ['array of cases'],
+'2018-12-27': ['array of cases'],
+'2019-12-29': ['array of cases'],
+'2019-12-30': ['array of cases'],
+'2018-12-30': ['array of cases'],
+'2018-12-31': ['array of cases'],
+}
+// Display all cases for 2018.
+
+// Display all cases for the 12th month of 2018.
+for (key in affairs) {
+if (key [3] == 8) {
+console.log (key);
+}
+}
+console.log (key)
+
+let arr = []; arr.push (key); if (key [3] == 8 && key [6] == 2) {
+for (key in business) {
+
+
+}
+}
+console.log (about);
+// Problem 75.6
+
+// Given an array with users:
+
+let users = [
+{
+name: 'name1',
+active: true,
+},
+{
+name: 'name2',
+active: false,
+},
+{
+name: 'name3',
+active: true,
+},
+{
+name: 'name4',
+active: false,
+},
+{
+name: 'name5',
+active: true,
+},
+];
+// Make two functions that will change the value of the active field: let the first function change to true, and the second to false.
+
+// Let our functions accept the given array and the user number, over which changes should be made, as parameters.
+
+// Let the functions return a modified array.
+
+changeKeyF (users, 1);
+function changeKey (arr, num) {
+if (arr [num] ['active'] == true) {
+arr [num] ['active'] = false;
+}
+return arr;
+}
+function changeKeyF (arr, num) {
+if (arr [num] ['active'] == false) {
+arr [num] ['active'] = true;
+}
+return arr;
+}
+console.log (users);
+
+Target 76.1
+
+The data is given in the following structure:
+
+let data = [
+{
+country: 'Russia',
+city: 'Moscow',
+},
+{
+country: 'Belarus',
+city: 'Minsk',
+},
+{
+country: 'Russia',
+city: 'Peter',
+},
+{
+country: 'Russia',
+city: 'Vladivostok',
+},
+{
+country: 'Ukraine',
+city: 'Lviv',
+},
+{
+country: 'Belarus',
+city: 'Mogilev',
+},
+{
+country: 'Ukraine',
+city: 'Kiev',
+},
+];
+You are aware that you will need to get arrays of cities from certain countries. For example, you will need to get all the cities of Russia, or all the cities of Belarus. You will also need to find the number of cities in a particular country.
+
+Solve the assigned tasks for the current data storage structure.
+
+
+let a = 0;
+let r = 0;
+let arr = []
+let russ = []
+for (let obj of data) {
+if (obj.country === 'Belarus') {
+arr.push (obj.city)
+a ++
+}
+if (obj.country === 'Russia') {
+russ.push (obj.city)
+r ++
+}
+}
+console.log (arr);
+console.log (russ);
+console.log (a);
+console.log (r);
+
+After that, answer the question, is this data structure convenient for solving the tasks?
+
+Modify the structure to be more comfortable. Write solutions to the problems posed for the new data structure. ]
+
+let data = {
+'Russia': ['Moscow', 'Vladivostok', 'Peter'],
+'Belarus': ['Minsk', 'Mogilev'],
+'Ukraine': ["Lviv", "Kiev"]
+};
+
+console.log (data ['Russia']);
+console.log (data ['Belarus']);
+
+Target 76.2
+
+Given a list of some data for specific dates, stored in the following structure:
+
+let data = [
+{
+year: 2019,
+month: 11,
+day: 20,
+data: ['array with data']
+},
+{
+year: 2019,
+month: 11,
+day: 21,
+data: ['array with data']
+},
+{
+year: 2019,
+month: 12,
+day: 25,
+data: ['array with data']
+},
+{
+year: 2019,
+month: 12,
+day: 26,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 10,
+day: 29,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 10,
+day: 30,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 11,
+day: 19,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 11,
+day: 20,
+data: ['array with data']
+},
+]
+Suppose you need to get data for
+
+
+
+a specific day, a specific month, and a specific year. Is the current storage structure convenient for this?
+
+If yes, leave it as it is, if not, redo the structure to be more convenient. Then get all the data for 2020.
+
+let data = {
+2019: {
+eleven: {
+20: ['array with data'],
+21: ['array with data'],
+},
+12: {
+25: ['array with data'],
+26: ['array with data'],
+},
+},
+2020: {
+10: {
+29: ['array with data'],
+30: ['array with data'],
+}
+},
+2020: {
+eleven: {
+19: ['array with data'],
+20: ['array with data'],
+}
+},
+}
+
+console.log (data ['2019'] ['11'] ['20']);
+
+Target 76.3
+
+Given the following structure for storing events and their dates:
+
+let affairs = [
+{
+date: '2019-12-29'
+event: 'name1'
+},
+{
+date: '2019-12-31'
+event: 'name2'
+},
+{
+date: '2019-12-29'
+event: 'name3'
+},
+{
+date: '2019-12-30'
+event: 'name4'
+},
+{
+date: '2019-12-29'
+event: 'name5'
+},
+{
+date: '2019-12-31'
+event: 'name6'
+},
+{
+date: '2019-12-29'
+event: 'name7' date: '2019-12-30' {
+},
+
+
+event: 'name8'
+},
+{
+date: '2019-12-30'
+event: 'name9'
+},
+]
+Suppose you need to get a list of events for a specific date. Is the current storage structure convenient for this?
+
+If yes, leave it as it is, if not, redo the structure to be more convenient. Then get a list of events for '2019-12-30'.
+
+let affairs = {
+'2019-12-29': ['name1', 'name3', 'name5', 'name7',],
+'2019-12-30': ['name8', 'name9', 'name4'],
+'2019-12-31': ['name2', 'name6'],
+};
+
+console.log (affairs ['2019-12-30'])
+
+Target 76.4
+
+Let your task be to store horoscopes for the signs of the zodiac. Horoscopes are stored for several months in advance.
+It will be necessary to receive horoscopes of all zodiac signs for a specific day, as well as a horoscope for a specific zodiac sign for a specific day.
+Consider a convenient data storage structure. Indicate its advantages and disadvantages. Explain for what tasks the structure you have invented will be inconvenient.
+
+let gor = {
+jan: {
+"Virgo - horoscope: normal": [1, 2, 3, 15],
+"Libra - horoscope: everything is wrong": [16, 17, 30, 31]
+},
+fev: {
+"Taurus - horoscope: not bad": [1, 2, 3, 15],
+"Cancer is a horoscope: everything will be cool": [16, 17, 27, 28]
+},
+mar: {
+"Aries - horoscope: a bright future awaits you": [1, 2, 3, 15],
+"Sagittarius - horoscope: everything is very bad": [16, 17, 30, 31]
+}
+};
+let data = 1;
+for (let key in gor) {
+for (let key1 in gor [key]) {
+if (gor [key] [key1] [data - 1] == data) {
+console.log (key1);
+}
+}
+}
+// horoscope of a specific zodiac sign for a specific day (inconvenient)
+// And now we will do it for a certain day and month (it will be more convenient)
+let data = 1; let month = 'fev';
+for (let key in gor) {
+for (let key1 in gor [key]) {
+if (gor [key] [key1] [data - 1] == data && key == month) {
+console.log (key1);
+}
+}
+}
+
+Target 76.5
+Suppose you are faced with the task of keeping a list of students of a school. It will be necessary to store the name, surname and patronymic of each student for all 11 grades of the school.
+
+You will need to get a list of students for a specific grade, for example, all 10th grade students or all 11th grade students. It will also be necessary to receive students for a certain parallel, for example, all students in grade 10A or all students in grade 10B.
+
+Consider a convenient data storage structure. Indicate its advantages and disadvantages. Explain for what tasks the structure you have invented will be inconvenient.
+let students = {
+10: {
+BUT: [
+{
+name: 'Ivan',
+family: 'Ivanov',
+patronymic: 'Ivanovic',
+},
+{
+name: 'Peter',
+family: 'Petrov',
+patronymic: 'Petrovich',
+},
+],
+B: [
+{
+name: 'Ivan2',
+family: 'Ivanov2',
+patronymic: 'Ivanovic2',
+},
+{
+name: 'Peter2',
+family: 'Petrov2',
+patronymic: 'Petrovich2',
+},
+],
+},
+eleven: {
+BUT: [
+{
+name: 'Ivan3',
+family: 'Ivanov3',
+patronymic: 'Ivanovich3',
+},
+{
+name: 'Peter3',
+family: 'Petrov3',
+patronymic: 'Petrovich3',
+},
+],
+B: [
+{
+name: 'Ivan4',
+family: 'Ivanov4',
+patronymic: 'Ivanovic4',
+},
+{
+name: 'Peter5',
+family: 'Petrov5',
+patronymic: 'Petrovich5',
+},
+],
+}
+
+};
+
+// all 10th grade students
+console.log (students [10]);
+
+// all students of grade 10A
+console.log (students [10] ['A']);
+
+// // Problem 76.6
+
+// Let your task be to store the to-do list for today. It will be necessary to keep the name of the case and a note on whether this case has already been completed or not.
+
+// It will be necessary to receive and display a list of to-do's, indicating whether this task has been completed or not next to the name.
+
+// Think about a convenient data storage structure. Indicate its advantages and disadvantages. Explain for what tasks the structure you have invented will be inconvenient.
+
+let works = [
+{'name': 'work1',
+'proc': 'done',
+},
+{'name': 'work2',
+'proc': 'not done',
+},
+{'name': 'work3',
+'proc': 'done',
+}, if (deal ['proc'] == ['done']) {for (let the deal work) {
+]
+
+
+
+
+console.log (deal ['name'] + '' + deal ['proc']);
+}
+if (deal ['proc'] =
+
+= ['not done']) {
+console.log (deal ['name'] + '' + deal ['proc']);
+}
+}
+
+// Problem 77.1
+
+// Given a list of cities and their countries, stored in the following structure:
+
+let data = [
+{
+country: 'Russia',
+city: 'Moscow',
+},
+{
+country: 'Belarus',
+city: 'Minsk',
+},
+{
+country: 'Russia',
+city: 'Peter',
+},
+{
+country: 'Russia',
+city: 'Vladivostok',
+},
+{
+country: 'Ukraine',
+city: 'Lviv',
+},
+{
+country: 'Belarus',
+city: 'Mogilev',
+},
+{
+country: 'Ukraine',
+city: 'Kiev',
+},
+]
+// Write the code that will transform the data structure like this:
+
+// {
+// 'Russia': [
+// 'Moscow', 'Peter', 'Vladivostok',
+//],
+// 'Belarus': [
+// 'Minsk', 'Mogilev'
+//],
+// 'Ukraine': [
+// 'Kiev', 'Lviv'
+//],
+//}
+
+let res = {};
+for (let element of data) {
+if (res [element.country] === undefined) {
+res [element.country] = [element.city];
+} else {
+res [element.country] .push (element.city);
+}
+
+}
+console.log (permission)
+
+// Problem 77.2
+
+// Given a list of events for specific dates, stored in the following structure:
+
+let events = [
+{
+date: '2019-12-29',
+event: 'name1',
+},
+{
+date: '2019-12-31',
+event: 'name2',
+},
+{
+date: '2019-12-29',
+event: 'name3',
+},
+{
+date: '2019-12-30',
+event: 'name4',
+},
+{
+date: '2019-12-29',
+event: 'name5',
+},
+{
+date: '2019-12-31',
+event: 'name6',
+},
+{
+date: '2019-12-29', {},
+event: 'name7',
+
+
+date: '2019-12-30',
+event: 'name8',
+},
+{
+date: '2019-12-30',
+event: 'name9',
+},
+]
+// Write the code that will transform the data structure like this:
+
+// {
+// '2019-12-29': ['name1', 'name3', 'name5', 'name7'],
+// '2019-12-30': ['name4', 'name8', 'name9'],
+// '2019-12-31': ['name2', 'name6'],
+//}
+
+let dates = {};
+for (elem of events) {
+if (dates [elem.date] === undefined) {
+dates [elem.date] = [elem.event];
+}
+else {
+dates [elem.date}
+}] .push (elem.event)
+
+
+console.log (dates);
+Target 77.3
+
+A list of events for specific dates is given, stored in the following structure:
+
+let events = {
+'2019-12-29': ['name1', 'name3', 'name5', 'name7'],
+'2019-12-30': ['name4', 'name8', 'name9'],
+'2019-12-31': ['name2', 'name6'],
+}
+Write the code that will transform the data structure like this:
+
+let events = [
+{
+date: '2019-12-29'
+event: 'name1'
+},
+{
+date: '2019-12-31'
+event: 'name2'
+},
+{
+date: '2019-12-29'
+event: 'name3'
+}, {}, event: 'name4' date: '2019-12-30'
+{
+
+
+
+
+date: '2019-12-29'
+event: 'name5'
+},
+{
+date: '2019-12-31'
+event: 'name6'
+},
+{
+date: '2019-12-29'
+event: 'name7'
+},
+{
+date: '2019-12-30'
+event: 'name8'
+},
+{
+date: '2019-12-30'
+event: 'name9'
+},
+]
+
+let result = [];
+
+for (enter events) {
+for (let event element [key]) {
+result.push ({date: key, event: elem});
+}
+}
+
+Target 77.4
+
+A list of events for certain months is given, stored in the following structure:
+
+let events = [
+{
+date: '2019-12'
+event: 'name1'
+},
+{
+date: '2019-12'
+event: 'name2'
+},
+{
+date: '2019-11'
+event: 'name3'
+},
+{
+date: '2019-11'
+event: 'name4'
+},
+{
+date: '2020-10'
+event: 'name5'
+},
+{
+date: '2020-10'
+event: 'name6'
+},
+{
+date: '2020-11'
+event: 'name5'
+},
+{
+date: Event '2020-11'},
+: 'name6'
+
+{
+date: '2020-12'
+event: 'name7'
+},
+{
+date: '2020-12'
+event: 'name8'
+},
+{
+date: '2020-12'
+event: 'name9'
+},
+]
+Write the code that will transform the data structure like this:
+
+{
+2019: {
+11: [array of events],
+12: [array of events],
+}
+2020: {
+10: [array of events],
+11: [array of events],
+12: [array of events],
+}
+}
+
+let result = {};
+
+for (let elem of events) {
+let [year, month] = elem.date.split ('-');
+
+if (result [year] === undefined) {
+result [year] = {};
+}
+
+if (result [year] [month] === undefined) {
+result [year] [month] = [];
+}
+
+result [year] [month] .push (elem.event);
+
+}
+
+console.log (result);
+Target 77.5
+
+Given a list of some data for specific dates, stored in the following structure:
+
+let data = [
+{
+year: 2019,
+month: 11,
+day: 20,
+data: ['array with data']
+},
+{
+year: 2019,
+month: 11,
+day: 21,
+data: ['array with data']
+},
+{
+year: 2019,
+month: 12,
+day: 25,
+data: ['array with data']
+},
+{
+year: 2019,
+month: 12,
+day: 26,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 10,
+day: 29,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 10,
+day: 30,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 11,
+day: 19,
+data: ['array with data']
+},
+{
+year: 2020,
+month: 11,
+day: 20,
+data: ['array with data']
+},
+}
+Write the code that will transform the data structure into a structure of the form:
+
+{
+year1: {
+month1: {
+day1: [data array],
+day2: [array of data],
+day3: [dataset],
+}
+month2: {
+day1: [data array],
+day2: [array of data],
+day3: [dataset],
+}
+}
+year2: {
+month1: {
+day1: [data array],
+day2: [array of data],
+day3: [dataset],
+}
+month2: {
+day1: [data array],
+day2: [array of data],
+day3: [dataset],
+}
+}
+}
+
+let result = {};
+
+for (let elem of data) {
+let [year, month, day] = [elem.year, elem.month, elem.day];
+
+if (result [year] === undefined) {
+result [year] = {};
+}
+
+if (result [year] [month] === undefined) {
+result [year] [month] = {};
+}
+
+result [year] [month] [day] = elem.data;
+
+}
+
+console.log (result);
+
+Target 78.1
+
+Raise 2 to the 10th power.
+
+console.log (Math.pow (2,10));
+// Problem 78.2
+
+// Find the square root of 245.
+
+console.log (Math.sqrt (245));
+// Problem 78.3
+
+// Given an array with elements 4, 2, 5, 19, 13, 0, 10. Find the square root of the sum of the cubes of its elements. Use a for loop to solve.
+let sum = 0;
+arr = [4, 2, 5, 19, 13, 0, 10];
+for (let num of arr) {
+sum = sum + (num * num * num)
+}
+console.log (Math.sqrt (sum));
+// Problem 78.4
+
+// Find the square root of 379. Round the result to whole, to tenths, to hundredths.
+
+let num = Math.sqrt (379);
+console.log (Math.round (num));
+console.log (num.toFixed (1));
+console.log (num.toFixed (2));
+// Problem 78.5
+
+// Find the square root of 587. Round the result up and down, write the rounding results into an object with keys 'floor' and 'ceil'.
+
+let floor = Math.floor (Math.sqrt (587));
+let ceil = Math.ceil (Math.sqrt (587));
+
+
+let obj = {
+'floor': 24,
+'ceil': 25
+}
+
+// Problem 78.6
+
+// Given numbers 4, -2, 5, 19, -130, 0, 10. Find the minimum and maximum number.
+
+console.log (Math.max (4, -2, 5, 19, -130, 0, 10));
+console.log (Math.min (4, -2, 5, 19, -130, 0, 10));
+// function getRandomInt (min, max) {
+// return Math.floor (Math.random () * (max - min + 1)) + min;
+//}
+
+// Problem 78.7
+
+// Display a random integer between 1 and 100.`
+
+function randomInt (min, max) {
+return Math.floor (Math.random () * (max-min + 1)) + min;
+}
+
+console.log (randomInt (1,100));
+// Problem 78.8
+
+// Use a loop to fill the array with 10 random integers.
+let arr = [];
+for (i = 0; i <10; i ++) {
+num = Math.floor (Math.random () * (199-1 + 1)) + 1;
+arr.push (num);
+}
+
+
+console.log (arr);
+// Problem 78.9
+
+// Given variables a and b. Find find the modulus of the difference between a and b. Test the script yourself for different a and b.
+
+console.log (Math.abs (12-15));
+// Problem 79.1
+
+// Given string 'js'. Make it the string 'JS'.
+
+// Problem 79.2
+
+// Given string 'JS'. Make it the string 'js'.
+
+
+console.log ('js'.toUpperCase ());
+console.log ('JS'.toLowerCase ());
+
+// Problem 79.3
+
+// Given the string 'I am learning javascript!'. Cut out the word 'learn' and the word 'javascript' from it in three different ways (via substr, substring, slice).
+
+console.log ('I am learning javascript!'. substr (2,3));
+console.log ('I am learning javascript!'. substr (-11,10));
+console.log ('I'm learning javascript!'. substr (6,10));
+console.log ('I am learning javascript!'. substring (2,5));
+console.log ('I am learning javascript!'. substring (6,16));
+console.log ('I am learning javascript!'. slice (2,5));
+console.log ('I am learning javascript!'. slice (2, -12));
+console.log ('I am learning javascript!'. slice (6, -1));
+
+
+// Given a string. Check if this line ends with .html.
+
+console.log ('https: //repl.html'.lastIndexOf (' .html '));
+
+// Problem 79.10
+
+// Given a string. Check if this line starts with http: //.
+
+console.log ('https: //repl.html'.startsWith (' http '));
+
+// Problem 79.11
+
+// Given a string. Check if this line ends with .html.
+
+
+console.log ('https: //repl.html'.endsWith (' .html '));
+
+// Problem 79.12
+
+// Given the string '1-2-3-4-5'. Use the split method to write each number of this string into a separate element of the array.
+
+console.log ('1-2-3-4-5'.split (' - '));
+
+// Problem 79.13
+
+// Given string '12345'. Use the split method to write each character of this string into a separate element of the array.
+
+console.log ('12345'.split (' '));
+
+
+// Problem 79.14
+
+// Given the following array:
+
+let arr = [1, 2, 3, 4, 5];
+// Use the join method to merge it into the string '1-2-3-4-5'.
+
+console.log (arr.join (''));
+
+// Problem 80.1
+
+// Given an array [1, 2, 3]. Add elements 4, 5, 6 to the end of it.
+
+let arr = [1, 2, 3];
+arr.push (4,5,6);
+console.log (arr);
+
+// Problem 80.2
+
+// Given an array [1, 2, 3]. Add elements 4, 5, 6 to it at the beginning.
+
+let arr = [1, 2, 3
+];
+
+arr.unshift (4,5,6);
+console.log (arr);
+
+// Problem 80.3
+
+// Given an array ['js', 'css', 'jq']. Display the first item.
+
+let arr = ['js', 'css', 'jq'];
+
+console.log (arr [0]);
+
+// // Problem 80.4
+
+// // Given an array ['js', 'css', 'jq']. Display the last item.
+
+console.log (arr [2]);
+
+// Problem 80.5
+
+// Given an array [1, 2, 3, 4, 5]. Using the slice method, write to the new elements [1, 2, 3].
+let arr = [1, 2, 3, 4, 5];
+
+console.log (arr.slice (0,3));
+
+// Problem 80.6
+
+// Given an array [1, 2, 3, 4, 5]. Using the slice method, write to the new elements [4, 5].
+
+console.log (arr.slice (3,5));
+
+Target 80.7
+
+You are given an array [1, 2, 3, 4, 5]. Use the splice method to convert the array to [1, 4, 5].
+let arr = [1, 2, 3, 4, 5];
+
+console.log (arr.splice (1,2));
+console.log (arr);
+
+// Problem 80.8
+
+// Given an array [1, 2, 3, 4, 5]. Use the splice method to write elements [2, 3, 4] to a new array.
+
+
+let arr = [1, 2, 3, 4, 5] .splice (1,3);
+console.log (arr);
+
+// Problem 80.9
+
+// Given an array [1, 2, 3, 4, 5]. Use the splice method to make it an array [1, 2, 3, 'a', 'b', 'c', 4, 5].
+
+let arr = [1, 2, 3, 4, 5]
+arr.splice (3,0, 'a', 'b', 'c');
+
+console.log (arr);
+
+// Problem 80.10
+
+// Given an array [1, 2, 3, 4, 5]. Use the splice method to make it an array [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
+
+let arr = [1, 2, 3, 4, 5]
+arr.splice (1,0, 'a', 'b');
+arr.splice (6.0, 'c');
+arr.splice (8.0, 'e');
+
+console.log (arr);
+
+// Problem 80.11
+
+// Given an array with numbers. Check if this array contains number 3.
+
+let arr = [1, 2, 3, 4, 5]
+console.log (arr.indexOf (3));
+
+Target 81.1
+
+Convert the last letter of the string to uppercase.
+
+let str = 'london'
+
+let res = str.slice (0, -1) + str.slice (5,6) .toUpperCase ();
+console.log (res);
+
+Target 81.2
+
+Convert the first 2 letters of the string to uppercase.
+
+let str = 'london'
+
+let res = str.slice (0,2) .toUpperCase () + str.slice (2,6)
+console.log (res);
+
+
+// Problem 81.3
+
+// Let a string be given with the first letter in uppercase, for example, like this:
+
+let str = 'London';
+// Convert the first letter of the string to lowercase.
+
+res = str.slice (0,1) .toLowerCase () + str.slice (1);
+console.log (res);
+Target 81.5
+
+Convert the string 'var_test_text' to 'VarTestText'.
+
+The code you write should work for any strings of this type (that is, for strings where words are separated by underscores).
+
+let str = 'var_test_text';
+
+let words = str.split ('_');
+
+console.log (words);
+
+for (let i = 0; i <words.length; i ++) {
+words [i] = words [i] .slice (0,1) .toUpperCase () + words [i] .slice (1);
+}
+let res = words.join ('');
+console.log (res);
+
+Target 81.6
+
+Modify the previous task so that the first newline letter is lowercase.
+
+let str = 'var_test_text';
+
+let words = str.split ('_');
+
+console.log (words);
+
+for (let i = 1; i <words.length; i ++) {
+words [i] = words [i] .slice (0,1) .toUpperCase () + words [i] .slice (1);
+}
+let res = words.join ('');
+console.log (res);
+
+Target 81.7
+
+A string with words is given. Write a script that reverses the words in a string.
+
+let str = 'var_test_text';
+
+let brr = str.split (''). reverse (). join ('');
+console.log (brr);
+// Problem 82.1
+
+// Make a function to display your name.
+
+function myName (name) {
+alert (name + '!');
+}
+
+myName ('Igor');
+
+// Problem 82.2
+
+// Make a function that displays the sum of numbers from 1 to 100.
+
+let sum = 0;
+function summer () {
+for (i = 1; i <100; i ++) {
+sum = sum + i;
+}
+alert (sum);
+
+}
+
+summer ();
+
+// Problem 83.1
+
+// Make a function that takes a number as a parameter and displays the cube of that number.
+
+function cubic (num) {
+alert (num * num * num);
+}
+cubic (6);
+
+// Problem 83.2
+
+// Make a function that takes a number as a parameter and checks if it is positive or negative. In the first case, let the function display the text '+++', and in the second '---'
+
+function active (num) {
+if (num> 0) {
+alert ('+++');
+}
+else {
+alert ('---');
+}
+}
+active (-1);
+
+// Problem 83.3
+
+// Make a function that takes 3 numbers as parameters and displays the sum of these numbers
+
+function summer (a, b, c) {
+alert (a + b + c);
+}
+summer (4,5,1);
+
+// Problem 83.3
+
+// Make a function that takes 3 numbers as parameters and displays the sum of these numbers
+
+function summer (a, b, c) {
+alert (a + b + c);
+}
+
+let param1 = 1;
+let param2 = 2;
+let param3 = 3;
+summer (param1, param2, param3);
+// Problem 84.1
+
+// Make a function that takes a number as a parameter and returns a cube of that number. Use this function to find the cube of the number 3 and write it to the result variable.
+
+function cubic (num) {
+return num * num * num
+}
+
+let result = cubic (3);
+
+// Problem 84.2
+
+// Make a function that takes a number as a parameter and returns sq.
+
+the adrat root of this number.
+
+// Use this function to find the root of 3, then find the root of 4. Add up the results and display them.
+
+function sqrtq (num) {
+return Math.sqrt (num);
+}
+
+let result = sqrtq (3) + sqrtq (4);
+alert (result);
+
+// Problem 84.3
+
+// Suppose you have a function that returns the square root of a number, and a function that rounds a fraction to three decimal places:
+
+function sqrt (num) {
+return Math.sqrt (num);
+}
+
+function round (num) {
+return num.toFixed (3);
+}
+// Use these functions to find the square root of 2 and round it to three decimal places.
+
+let result = (round (sqrt (2)));
+alert (result);
+
+// Problem 84.4
+
+// Suppose you have a function that returns the square root of a number and a function that returns the sum of three numbers:
+
+function sqrt (num) {
+return Math.sqrt (num);
+}
+
+function sum (num1, num2, num3) {
+return num1 + num2 + num3;
+}
+// Using these functions, find the sum of the roots of numbers 2, 3 and 4 and write it to the result variable.
+
+let result = sum (sqrt (2), sqrt (3), sqrt (4));
+alert (result);
+
+// Problem 84.5
+
+// Suppose you have a function that rounds a fraction to three decimal places:
+function sqrt (num) {
+return Math.sqrt (num);
+}
+
+function round (num) {
+return num.toFixed (3);
+}
+
+function sum (num1, num2, num3) {
+return num1 + num2 + num3;
+}
+
+// Using this function, modify the previous task so that the result variable is written as a fraction, rounded to 3 decimal places.
+
+// Using these functions, find the sum of the roots of numbers 2, 3 and 4 and write it to the result variable.
+
+let result = round (sum (sqrt (2), sqrt (3), sqrt (4)));
+
+alert (result);
+
+// // Problem 84.6
+
+// // What will be displayed as a result of executing the following code:
+function func (num) {
+return num;
+
+let result = num * num;
+return result;
+}
+
+alert (func (3));
+
+// will display 3 as the first return will exit the function
+
+// Problem 84.7
+
+// Which will display each of the alerts as a result of executing the following code:
+
+function func (num) {
+if (num <= 0) {
+return Math.abs (num);
+} else {
+return num * num;
+}
+}
+
+alert (func (10));
+alert (func (-5));
+// Explain why.
+
+// The first alert will display 100 as the second return will be executed in if, and the second will output 5 since this is a module.
+
+// Problem 84.8
+
+// Which will display each of the alerts as a result of executing the following code:
+
+function func (num) {
+if (num <= 0) {
+return Math.abs (num);
+}
+
+return num * num;
+}
+
+alert (func (10));
+alert (func (-5));
+// Explain why.
+
+For the first alert, 2 return will be triggered, since it doesn't match the if condition. And in the second, the first return because this is a negative number and matches if.
+
+// Problem 84.9
+
+// What will be displayed on the screen as a result of executing the following code:
+
+function func (num) {
+let sum = 0;
+
+for (let i = 1; i <= num; i ++) {
+sum + = i;
+
+}
+
+return sum;
+}
+
+alert (func (5));
+// Explain why.
+
+// What did the author of this code want to do? Correct the author's mistake.
+
+// The author wanted to calculate the sum of numbers from 1 to num, but because of the return in the loop, in this case the loop will loop only one iteration and the function will automatically exit.
+
+// Problem 84.10
+
+// Write a function that takes a number as a parameter and divides it by 2 until the result is less than 10. Let the function return the number of iterations it took to achieve the result.
+let i = 0;
+function div (num) {
+
+for (i = 0; 10 <num; i ++) {
+num / = 2;
+}
+return i;
+}
+
+console.log (div (1000));
+
+// Problem 84.11
+
+// Given the following function:
+
+function func (num1, num2) {
+let result;
+
+if (num1> 0 && num2> 0) {
+result = num1 * num2;
+} else {
+result = num1 - num2;
+}
+
+return result;
+}
+
+alert (func (3, 4));
+// Rewrite it in an abbreviated form according to the theory learned.
+
+function func (num1, num2) {
+let result;
+
+if (num1> 0 && num2> 0) {
+return result = num1 * num2;
+} else {
+return result = num1 - num2;
+}
+}
+
+alert (func (3, 4));
+
+// Problem 85.1
+
+// Write a function that will find the sum of squares of array elements.
+
+let arr = [1, 2, 3, 4, 5];
+
+function getSum (arra) {
+let sum = 0;
+for (let elem of arra) {
+sum + = elem * elem;
+}
+return sum
+}
+alert (getSum (arr));
+
+// Problem 85.2
+
+// Make a function getDigitsSum (digit is a digit), which will take an integer as a parameter and return the sum of its digits.
+
+function getDigitsSum (digit) {
+let str = String (digit);
+let sum = 0;
+for (i = 0; i <str.length; i ++) {
+sum + = + str [i];
+}
+return sum;
+}
+
+alert (getDigitsSum (5122231));
+
+// Problem 85.3
+
+// Implement the getDivisors function, which will take a number as a parameter and return an array of its divisors, that is, the numbers by which our number is divided. For example, if we pass the number 24, we should get an array [1, 2, 3, 4, 6, 8, 12, 24].
+
+let arr = []
+
+function getDivisors (num) {
+for (let i = 1; i <= num; i ++) {
+if (num% i == 0) {
+arr.push (i);
+}
+}
+return arr
+}
+
+console.log (getDivisors (24));
+
+Backside
+acha 85.4
+
+Make the reverseStr function, which will take a string as a parameter and reverse its characters. Solve the problem without a loop using a combination of standard JavaScript functions.
+
+function reverseStr (str) {
+return str.split (''). reverse (''). join ('');
+}
+
+console.log (reverseStr ('twitch'));
+// Problem 85.5
+
+// Make the delElem function, which will take a value and an array as parameters and remove all elements with this value from the array.
+let array = [1, 2, 3, 2, 5];
+let res = []
+
+function delElem (par, arr) {
+for (let i = 0; i <arr.length; i ++) {
+if (arr [i]! = par) {
+res.push (arr [i])
+}
+}
+return res
+}
+
+console.log (delElem (2, array));
+
+// Problem 85.6
+
+// Make a function that populates an array with integers from 1 to the given one.
+
+// An example of how such a function works:
+let arr = [];
+
+function func (num) {
+for (i = 0; i <num; i ++) {
+arr.push (i + 1);
+}
+return arr
+}
+
+
+console.log (func (25)); // will print [1, 2, 3, 4, 5]
+
+// Problem 85.7
+
+// Make a function that populates an array with integers from the start to the end given numbers.
+
+// An example of how such a function works:
+let arr = [];
+
+function func (one, two) {
+for (; one <= two; one ++) {
+arr.push (one);
+}
+return arr
+}
+
+console.log (func (3, 7)); // will print [3, 4, 5, 6, 7]
+
+// Problem 86.1
+
+// Make a function that will take an array with numbers as a parameter and check that all elements in this array are even numbers.
+
+let arr = [4, 2, 6, 8, 10];
+
+function nondiv (array) {
+for (let elem of array) {
+if (elem% 2 == 0) {
+return true
+}
+else {
+return false
+}
+}
+}
+alert (nondiv (arr));
+
+// Problem 86.2
+
+// Make a function that takes a number as a parameter and checks that all digits are odd numbers.
+
+function nondiv (num) {
+let str = String (num);
+for (let i = 0; i <str.length; i ++) {
+if (str [i]% 2! == 0) {
+return true;
+}
+else {
+return false;
+}
+}
+}
+
+console.log (nondiv (6));
+
+// Problem 86.3
+
+// Make a function that will take an array as a parameter and check if this array contains two identical elements in a row.
+
+let arr = [1, 2, 2, 2, 5];
+
+function alter (array) {
+for (let i = 0; i <arr.length; i ++) {
+if (array [i] == array [i + 1]) {
+return true;
+}
+}
+return false;
+}
+alert (alter (arr));
+
+// Problem 87.1
+
+// Given the following function:
+
+// function func (a, b) {
+// if (a == b) {
+// return true;
+//} else {
+// return false;
+//}
+//}
+// Rewrite its code in an abbreviated form according to the theory learned.
+
+function func (a, b) {
+return a == b;
+}
+
+alert (func (4,5));
+
+// Problem 87.2
+
+// Given the following function:
+
+// function func (a, b) {
+// if (a! = b) {
+// return true;
+//} else {
+// return false;
+//}
+//}
+// Rewrite its code in abbreviated form according to the theory learned.
+
+function func (a, b) {
+return a! = b;
+}
+alert (func (4,5));
+
+// Problem 87.3
+
+// Given the following function:
+
+// function func (a, b) {
+// if (a + b> = 10) {
+// return true;
+//} else {
+// return false;
+//}
+//}
+// Rewrite its code in abbreviated form according to the theory learned.
+
+
+function func (a, b) {
+return a + b> = 10;
+}
+alert (func (5,4));
+
+// Problem 87.4
+
+// Given the following function:
+
+// function func (num) {
+// if (num> = 0) {
+// return true;
+//} else {
+// return false;
+//}
+//}
+// Rewrite its code in an abbreviated form according to the theory learned.
+
+
+function func (num) {
+return num> = 0
+}
+
+alert (func (5-19));
+
+// Problem 88.1
+
+// Given a function that checks numbers for simplicity:
+
+function isPrime (num) {
+for (let i = 2; i <num; i ++) {
+if (num% i == 0) {
+return false;
+}
+}
+
+return true;
+}
+
+console.log (isPrime (17));
+// Use the above function to find all prime numbers between 1 and 100.
+
+for (let i = 1; i <100; i ++) {
+if (isPrime (i)) {
+console.log (i);
+}
+}
+
+// Problem 88.2
+
+// The getDigitsSum function is given, which takes an integer as a parameter and returns the sum of its digits:
+
+function getDigitsSum (num) {
+let sum = 0;
+let digits = String (num) .split ('');
+
+for (let digit of digits) {
+sum + = Number (digit);
+}
+
+return sum;
+}
+// Use the above getDigitsSum function to find all the years from 1 to 2030 that have 13 digits sum.
+for (let i = 1; i <2030; i ++) {
+if (getDigitsSum (i) == 13) {
+console.log (i)
+}
+}
+
+// Problem 88.3
+
+// Let some array with numbers be given, for example, like this:
+
+// [123, 456, 789]
+// Let's make the numbers in each element of the array in reverse order. That is, we will make the following from our array:
+
+// [321, 654, 987]
+// A certain programmer has already written a code that implements the described task:
+
+let nums = [123, 456, 789];
+
+let result = [];
+function checkNum (numes) {
+for (let num of nums) {
+result.push (String (num) .split (''). reverse (). join (''));
+}
+return result
+}
+
+console.log (checkNum (nums)); // will output [321, 654, 987]
+// Modify the above code so that the flipping of the number is performed by a separate function.
+
+// Problem 88.4
+
+// Given two numbers. It is necessary to check if the sum of the digits is equal
+
+the first number is the sum of the digits of the second number.
+
+// Some programmer has already written a solution to the problem, here it is:
+
+let num1 = 234;
+let num2 = 5316;
+function summerNum (num) {
+let digits = String (num) .split ('');
+let sum = 0;
+for (let digit of digits) {
+sum + = + digit
+}
+return sum;
+}
+if (summerNum (num1) == summerNum (num2)) {
+alert ('the sums of the digits match');
+} else {
+alert ('the sums of the digits do not match');
+}
+
+// Problem 88.5
+
+// Given an array with numbers. It is necessary to iterate over this array with numbers and print the non-trivial divisors of these numbers to the console (that is, excluding the number 1 and the number itself).
+
+// Some programmer has already written a solution to the problem:
+
+let nums = [12, 24, 35, 14];
+
+for (let num of nums) {
+console.log (num + ':' + getDivisors (num) .join (','));
+}
+
+function getDivisors (num) {
+let result = [];
+
+for (let i = 2; i <num; i ++) {
+if (num% i == 0) {
+result.push (i);
+}
+}
+
+return result;
+}
+
+// result.push (i) instead of result.push (num)
+// The programmer did not test the getDivisors function separately, but wrote all the code at once and then ran it. At startup, it turned out that the code was somehow not working properly. Apparently, there was some mistake in the getDivisors function.
+
+// Find and fix the error. Test the getDivisors function separately to make sure it works correctly after you edit it. After you are convinced that the function is working correctly, check the complete code for solving the problem.
+
+// Problem 89.1
+
+// Given a getSum function that finds the sum of the elements of the passed array:
+
+function getSum (arr) {
+let sum = 0;
+
+for (let elem of arr) {
+sum + = Number (elem);
+}
+
+return sum;
+}
+// Given a getDigits function that returns an array of digits of a number:
+
+function getDigits (num) {
+return String (num) .split ('');
+}
+// Using a combination of the above functions find the sum of the digits of 12345.
+
+console.log (getSum (getDigits (12345)));
+
+// Problem 89.2
+
+// Given a number. It is necessary to find its divisors (without 1 and the number itself), and then find the arithmetic mean (the sum divided by the number) of the number's divisors and display the result on the screen.
+
+// Some programmer has already written a solution to the problem:
+
+console.log (getAvg (getDivisors (24)));
+
+// Find the arithmetic mean:
+function getAvg (arr) {
+let sum = 0;
+
+for (let elem of arr) {
+sum + = + elem;
+}
+
+return sum / arr.length;
+}
+
+// Finding an array of divisors of a number:
+
+function getDivisors (num) {
+let result = [];
+
+for (let i = 2; i <num; i ++) {
+if (num% i == 0) {
+result.push (i);
+}
+}
+return result
+}
+
+// The programmer did not test the work of his functions separately, but wrote all the code at once and then ran it. On startup, it turned out that the code was not working correctly.
+
+// Find and fix programmer errors. Test all functions separately to make sure they work correctly after your edits. After you make sure that the functions work correctly, check the complete code for solving the problem.
+
+Target 90.1
+
+On your own, without peeping into my code, repeat the solution to the described problem.
+
+function GetDigitsNum (num) {
+return String (num) .split ('');
+}
+
+console.log (GetDigitsNum (45));
+
+function getSum (arr) {
+let sum = 0;
+for (let elem of arr) {
+sum + = + elem
+}
+return sum
+}
+
+
+
+function range (num) {
+let sum = getSum (GetDigitsNum (num));
+
+if (sum> = 1 && 9> = sum) {
+return true;
+}
+else {
+return false;
+}
+}
+
+console.log (range (getSum (GetDigitsNum (45))));
+
+let arr = [12, 19, 28, 13, 14, 345];
+let result = [];
+
+for (let elem of arr) {
+if (range (item)) {
+result.push (element)
+}
+}
+
+
+console.log (result);
+// Problem 91.1
+
+// Implement the getOwnDivisors function. Test her work.
+
+function getOwnDivisors (num) {
+let array = [];
+for (let i = 2; i <num; i ++) {
+if (num% i == 0) {
+array.push (i);
+}
+}
+return array
+}
+
+// console.log (getOwnDivisors (220));
+
+// Problem 91.2
+
+// Implement the getSum function. Test her work.
+
+function getSum (num) {
+let sum = 0;
+for (let elem of num) {
+sum + = Number (elem);
+}
+return sum;
+}
+
+Target 91.3
+
+Check the isFreindly function.
+
+function isFreindly (num1, num2) {
+let sum1 = getSum (getOwnDivisors (num1));
+let sum2 = getSum (getOwnDivisors (num2));
+
+if (sum1 == number2 && sum2 == number1) {
+return the truth;
+} else {
+return a lie;
+}
+}
+console.log (isFreindly (220, 284));
+
+// Problem 91.5
+
+// A perfect number is an integer equal to the sum of all its own divisors (that is, all positive divisors other than the number itself). Make a getPerfect function that will find perfect numbers in a given range. Test the function between 1 and 1000.
+
+
+function isPerfect (num) {
+return getSum (getOwnDivisors (num)) == num
+}
+
+console.log (getPerfect ());
+
+function getPerfect () {
+let res = [];
+for (let i = 1; i <1000; i ++) {
+if (isPerfect (i)) {
+res.push (i);
+}
+}
+return res
+
+// Per cottage 91.6
+
+// Make a getSimpleDivisors function that takes an integer as a parameter and finds all prime divisors of that number.
+
+function Prime (num) {
+for (let i = 2; i <num; i ++) {
+if (num% i == 0) {
+return false
+}
+}
+return true
+}
+
+console.log (getSimpleDivisors (333));
+
+function getSimpleDivisors (num) {
+let arr = [];
+let array = getOwnDivisors (num);
+for (let elem of array) {
+if (Prime (elem)) {
+arr.push (elem)
+}
+}
+return arr
+}
+
+// Problem 92.1
+
+// On your own, without peeping into my code, repeat the solution to the described problem.
+
+let arrr = [1,2,3,4,5];
+let arrrr = [2,7,6];
+
+function getInt (arr1, arr2) {
+let result = [];
+
+for (let elem of arr1) {
+if (inArray (elem, arr2)) {
+result.push (elem);
+}
+}
+return result;
+}
+
+
+function inArray (elem, arr) {
+if (arr.indexOf (elem)! == -1) {
+return false;
+}
+else {
+return true;
+}
+}
+
+console.log (getInt (arrr, arrrr));
+
+Target 93.1
+
+On your own, without peeping into my code, repeat the solution to the described problem.
+
+function inArray (elem, arr) {
+return arr.indexOf (elem)! == -1;
+}
+
+// let array = [1,2,3,4,5];
+
+// console.log (inArray (4, array));
+
+let arr1 = [1, 2, 3];
+let arr2 = [2, 3, 4, 5];
+
+// function getDiff (arr1, arr2) {
+// let array = [];
+// for (let elem of arr1) {
+// if (! inArray (elem, arr2)) {
+// array.push (elem)
+//}
+//}
+// for (let elem of arr2) {
+// if (! inArray (elem, arr1)) {
+// array.push (elem)
+//}
+//}
+// return array;
+//}
+
+console.log (getDiff ([1, 2, 3], [2, 3, 4, 5]));
+
+getDiff function (arr1, arr2) {
+let diff1 = getFirstDiff (arr1, arr2);
+let diff2 = getFirstDiff (arr2, arr1);
+
+return [] .concat (diff1, diff2);
+}
+
+getFirstDiff function (arr1, arr2) {
+let result = [];
+
+for (let element arr1) {
+if (! inArray (elem, arr2)) {
+result.push (elem);
+}
+}
+
+return the result;
+}
+
+function inArray (elem, arr) {
+return arr.indexOf (elem)! == -1;
+}
+
+// Problem 94.1
+
+// Implement the getGreatestCommonDivisor function, which will take two numbers as parameters and return the GCD of these two numbers.
+
+// When solving the problem, try to use auxiliary functions, including those obtained by us earlier in the theoretical part.
+
+// Make sure to test each helper function before using it.
+
+function getDigitalNum (arr1, arr2) {
+let res = [];
+
+for (let elem of arr1) {
+if (inArray (elem, arr2)) {
+res.push (elem);
+}
+}
+return res;
+}
+
+
+
+function inArray (elem, arr) {
+if (arr.indexOf (elem) === - 1) {
+return false
+}
+{
+return true
+}
+}
+
+
+digitsNum function (number) {
+let arr = [];
+for (i = 1; i <number; i ++) {
+if (number% i == 0) {
+arr.push (i);
+}
+}
+return arr
+}
+
+function getGreatestCommonDivisor (num1, num2) {
+let arr1 = [];
+let arr2 = [];
+let res = [];
+arr1 = digitsNum (number1);
+arr2 = digitsNum (number2);
+result = getDigitalNum (arr1, arr2);
+
+getMaxOfArray function (result) {
+return Math.max.apply (null, result);
+}
+return getMaxOfArray (result);
+}
+console.log (getGreatestCommonDivisor (24, 36));
+
+getGreatestCommonDivisor function (number1, number2) {
+let arr1 = [];
+let arr2 = [];
+let res = [];
+arr1 = digitsNum (number1);
+arr2 = digitsNum (number2);
+result = getDigitalNum (arr1, arr2);
+
+let nod = Math.max.apply (null, result);
+
+return nod == 1;
+
+}
+Target 95.1
+
+Implement the described function on your own, without peeping into my code. When solving the problem, copy the code of the getRandomInt function from the tutorial.
+
+function getRandomInt (min, max) {
+return Math.floor (Math.random () * (max-min + 1) + min);
+}
+
+
+console.log (getRandomInt (1,100));
+
+let arr = [1,2,3,4,5,6];
+
+let key = getRandomInt (0, arr.length-1);
+console.log (key);
+
+function getRandomKeyArr (arr) {
+let key = getRandomInt (0, arr.length-1);
+return arr [key]
+}
+
+console.log (getRandomKeyArr (arr));
+
+// function getRandomKeyArr (arr) {
+// return arr [getRandomInt (0, arr.length-1)];
+//}
+// console.log ()
+Target 95.2
+
+Using the created function, find the sum of three random elements from the array.
+
+function getRandomInt (min, max) {
+return Math.floor (Math.random () * (max-min + 1) + min);
+}
+
+function getRandomInt (min, max) {
+return Math.floor (Math.random () * (max - min + 1) + min);}
+function random (arr) {
+let sum = 0;
+let key = getRandomInt (0, arr.length - 1);
+for (let i = 0; i <3; i ++) {
+sum + = arr [key];}
+return sum;}
+let arr = [1, 2, 4, 5, 6, 16, 17, 18];
+console.log (random (arr));
+Target 96.1
+
+Implement the described function on your own, without peeping into my code. When solving the problem, copy the code of the getRandomInt function from the tutorial.
+function getRandomInt (min, max) {
+return Math.floor (Math.random () * (max-min + 1) + min);
+}
+
+function shuffle (arr) {
+
+let res = [];
+
+while (a
+rr.length> 0) {
+let random = getRandomInt (0, arr.length-1);
+let elem = arr.splice (random, 1) [0];
+res.push (elem)
+}
+return res;
+}
+
+console.log (shuffle (arr));
+
+Target 96.2
+
+Make the range function take 2 integers as parameters - the beginning and end of the range, and return an array filled with integers from that range.
+
+function getRandomInt (min, max) {
+return Math.floor (Math.random () * (max-min + 1) + min);
+}
+
+
+
+function range (min, max) {
+let arr = [];
+for (min; min <max; min ++) {
+let random = getRandomInt (min, max);
+arr.push (random)
+}
+return arr
+}
+
+console.log (range (3,10));
+
+// Problem 96.3
+
+// Make a rangeRand function that returns an array filled with random integers from the given range. In this case, the numbers should not be repeated. Use a combination of the range and shuffle functions to solve the problem.
+
+function getRandomInt (min, max) {
+return Math.floor (Math.random () * (max-min + 1) + min);
+}
+
+function rangeRand (min, max) {
+let arr = []
+for (let i = min; i <max; i ++) {
+arr.push (i);
+}
+let res = [];
+while (arr.length> 0) {
+let random = getRandomInt (0, arr.length-1);
+let elem = arr.splice (random, 1) [0];
+res.push (elem)
+}
+return res
+}
+console.log (rangeRand (16,34));
+
+Target 98.1
+
+On your own, without peeping into my code, repeat the solution to the described problem.
+function isLucky (num) {
+
+let str = normalizeNum (num);
+
+let sum1 = Number (str [0]) + Number (str [1]) + Number (str [2]);
+let sum2 = Number (str [3]) + Number (str [4]) + Number (str [5]);
+
+return sum1 == sum2
+}
+
+// console.log (isLucky (123321));
+
+// for (let i = 1000; i <999999; i ++) {
+// if (isLucky (i)) {
+// console.log (i);
+//}
+//}
+
+function normalizeNum (num) {
+let str = String (num);
+if (str.length == 5) {
+str = '0' + str;
+}
+if (str.length == 6) {
+str = '00' + str;
+}
+return str
+}
+
+getLuckyTickets () function {
+let res = [];
+for (i = 1000; i <999999; i ++) {
+if (isLucky (i)) {
+res.push (i);
+}
+}
+return res
+}
+console.log (getLuckyTickets ());
+
+Target 99.1
+
+Implement the described function. Test her work.
+
+function isLucky (str) {
+let sum1 = 0;
+let sum2 = 0;
+
+for (let i = 0; i <(str.length / 2); i ++) {
+sum1 + = Number (str [i]);
+sum2 + = Number (str [i + (str.length / 2)]);
+}
+
+return sum1 == sum2;
+}
+
+console.log (isLucky ('1203'));
+console.log (isLucky ('012003'));
+console.log (isLucky ('123006'));
+console.log (isLucky ('33 '));
+LikeShow LikesReply
+Igor Zvanko
+Igor Zvanko Nov 16, 2020 at 19: 46
+Target 99.2
+
+Explain how the following line of the normalizeNum function works:
+
+return formStr ('0', digitsAmount - str.length) + str;
+
+We add zeros to the number of digits in the string.
+
+// Problem 99.3
+
+// This is how our formStr function looks like:
+
+function formStr (data, length) {
+// some code
+let sum = '';
+for (let i = 0; i <length; i ++) {
+sum + = data;
+}
+return sum
+}
+// Add the missing code for the formStr function. Test her work.
+
+// Problem 99.4
+
+// Take the code for the normalizeNum function:
+
+function normalizeNum (num, digitsAmount) {
+let str = String (num);
+return formStr ('0', digitsAmount - str.length) + str;
+}
+// Take the formStr function you wrote and test the normalizeNum function, like this:
+
+function normalizeNum (num, digitsAmount) {
+let str = String (num);
+return formStr ('0', digitsAmount - str.length) + str;
+}
+
+function formStr (data, length) {
+// some code
+let sum = '';
+for (let i = 0; i <length; i ++) {
+sum + = data;
+}
+return sum
+}
+
+
+
+console.log (normalizeNum (123, 6)); // prints '000123'
+console.log (normalizeNum (1234, 6)); // will print '001234'
+console.log (normalizeNum (12345, 6)); // prints '012345'
+console.log (normalizeNum (123456, 6)); // will print '123456'
+
+function formStr (data, length) {
+// some code
+let sum = '';
+for (let i = 0; i <length; i ++) {
+sum + = data;
+}
+refund of the amount
+}
+
+
+
+function normalizeNum (num, digitsAmount) {
+let str = String (num);
+return formStr ('0', digitsAmount - line length) + line;
+}
+
+
+function normalizeNum (number, digitsAmount) {
+let str = String (num);
+return formStr ('0', digitsAmount - line length) + line;
+}
+
+function isLucky (str) {
+let sum1 = 0;
+let sum2 = 0;
+
+for (let i = 0; i <(str.length / 2); i ++) {
+sum1 + = Number (str [i]);
+sum2 + = Number (str [i + (str.length / 2)]);
+}
+
+return sum1 == sum2;
+}
+
+
+
+console.log (normalizeNum (123, 6)); // prints '000123'
+console.log (normalizeNum (1234, 6)); // will print '001234'
+console.log (normalizeNum (12345, 6)); // prints '012345'
+console.log (normalizeNum (123456, 6)); // will print '123456'
+
+// Problem 99.5
+
+// Test the joint work of the normalizeNum and isLucky functions, for example, like this:
+
+console.log (isLucky (normalizeNum (1203, 4))); // prints true
+console.log (isLucky (normalizeNum (312, 4))); // prints true
+
+console.log (isLucky (normalizeNum (6123, 6))); // output
+
+rides true
+console.log (isLucky (normalizeNum (600123, 6))); // prints true
+
+console.log (isLucky (normalizeNum (700123, 6))); // will print false
+console.log (isLucky (normalizeNum (070123, 6))); // will print false
+LikeShow LikesReply
+Igor Zvanko
+Igor Zvanko November 16, 2020 at 20:20
+Target 99.6
+
+Make the getLast function, which will take the number of digits in the ticket as a parameter and return the number corresponding to the end of the loop. Test this function with different values.
+
+function getLast (digitsAmount)
+{
+return formStr ('9', digitsAmount);
+}
+
+console.log (getLast (7));
+LikeShow LikesReply
+Igor Zvanko
+Igor Zvanko Nov 16, 2020 at 20:35
+Target 99.7
+
+Make the getFirst function, which will take the number of digits in the ticket as a parameter and return the number corresponding to the beginning of the loop. Test this function with different values.
+
+function getFirst (num) {
+let a = num / 2-1;
+return Number ('1' + formStr (0, a) + '1');
+}
+LikeShow LikesReply
+Igor Zvanko
+Igor Zvanko Nov 17, 2020 at 15:58
+Target 100.1
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+alert (num);
+}
+
+func ();
+
+Answer: 1;
+
+Target 100.2
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+alert (num);
+}
+
+num = 2;
+func ();
+
+Answer: 2;
+
+Target 100.3
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+alert (num);
+}
+
+let num;
+
+num = 1;
+func ();
+
+num = 2;
+func ();
+
+1st call 1, second 2
+
+Target 100.4
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+let num = 5;
+return num;
+}
+
+alert (num);
+
+Answer: Error;
+
+Target 100.5
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+let num = 5;
+return num;
+}
+
+alert (func ());
+
+Answer: 5;
+
+Target 100.6
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+num = 2;
+}
+func ();
+
+alert (num);
+
+Answer: 2;
+
+Target 100.7
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+let num = 2;
+}
+func ();
+
+alert (num);
+
+Answer: 1;
+
+Target 100.8
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+num = 2;
+}
+func ();
+
+alert (num);
+
+Answer: 2;
+
+Target 100.9
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+num = 2;
+}
+
+alert (num);
+
+Answer: 1;
+
+Target 100.10
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+let num = 2;
+}
+func ();
+
+alert (num);
+
+Answer: 2;
+
+Target 100.11
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+let num = 2;
+}
+
+alert (num);
+func ();
+
+Answer: 1;
+
+Target 100.12
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+num = 2;
+}
+
+alert (num);
+func ();
+
+Answer: 1;
+
+Target 100.13
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func () {
+num ++;
+}
+
+func ();
+func ();
+func ();
+alert (num);
+
+Answer: 4;
+
+Target 100.14
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+num = 2;
+}
+let num = 1;
+alert (num);
+func ();
+
+Answer: 1;
+
+Target 100.15
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+num = 2;
+}
+
+let num = 1;
+func ();
+alert (num);
+
+Answer: 2;
+Target 101.1
+
+Determine without running the code what will be displayed on the screen:
+
+function func (localNum) {
+alert (localNum);
+}
+
+func (1);
+
+Answer: 1;
+
+Target 101.2
+
+Determine without running the code what will be displayed on the screen:
+
+function func (localNum) {
+alert (localNum);
+}
+
+let num = 1;
+func (num);
+
+Answer: 1;
+
+Target 101.3
+
+Determine without running the code what will be displayed on the screen:
+
+function func (localNum) {
+alert (localNum);
+}
+
+let num = 1;
+func (num);
+num = 2;
+
+Answer: 1;
+
+Target 101.4
+
+Determine without running the code what will be displayed on the screen:
+
+let num = 1;
+
+function func (localNum) {
+alert (localNum);
+}
+
+num = 2;
+func (num);
+
+Answer: 2;
+
+Target 101.5
+
+Determine without running the code what will be displayed on the screen:
+
+function func (localNum) {
+localNum = 2;
+}
+
+let num = 1;
+func (num);
+alert (num);
+
+Answer: 1;
+
+Target 101.6
+
+Determine without running the code what will be displayed on the screen:
+
+function func (localNum) {
+num = 2;
+}
+
+let num = 1;
+func (num);
+alert (num);
+
+Answer: 2;
+
+Target 101.7
+
+Determine without running the code what will be displayed on the screen:
+
+function func (localNum) {
+let num = 2;
+}
+
+let num = 1;
+func (num);
+alert (num);
+
+Answer: 1;
+
+Target 101.8
+
+Determine without running the code what will be displayed on the screen:
+
+function func (num) {
+num = 2;
+}
+
+let num = 1;
+func (num);
+alert (num);
+
+Answer: 1;
+
+Target 101.9
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+num = 2;
+}
+
+let num = 1;
+func ();
+alert (num);
+
+Answer: 1;
+
+Target 101.10
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+let num = 2;
+}
+
+let num = 1;
+func ();
+alert (num);
+
+Answer: 1;
+Target 102.1
+
+Run the above code on your own and make sure that the alert displays the source code of the function.
+
+function func (
+) {
+return '!';
+}
+
+alert (func);
+
+// Problem 103.1
+
+// Make a function func that will return a string through return.
+
+
+function func () {
+
+return 'Good afternoon'
+}
+
+console.log (func ());
+
+Target 103.2
+
+Display the result of the func function as an alert on the screen.
+
+function func () {
+
+return 'Good afternoon'
+}
+
+alert (func ());
+
+Target 103.3
+
+Display the source code of the func function on the screen with an alert.
+
+function func () {
+
+return 'Good afternoon'
+}
+
+alert (func);
+
+Target 103.4
+
+Write the number 123 to the func variable, thereby overwriting the function from this variable. Print the new value of the func variable to the screen.
+
+function func () {
+
+return 'Good afternoon'
+}
+
+func = 123;
+alert (func);
+
+// Problem 103.5
+
+// Make a function func1 that will return the number 3 via return.
+
+function func1 () {
+
+return 3
+}
+
+
+alert (func1 ());
+
+Target 103.6
+
+Copy the source code of the func1 function into the func2 variable.
+
+let func2 = func1;
+
+Target 103.7
+
+Display the sum of the results of the func1 and func2 functions.
+
+alert (func1 () + func2 ());
+// Problem 103.8
+
+// Make an unnamed function that will return the number 1 via return. Write this function to the func1 variable.
+
+let func 1 = function () {
+
+return 1
+}
+
+
+alert (func 1 ());
+
+Target 103.9
+
+Make an unnamed function that will return the number 2 via return. Write this function to the func2 variable.
+
+let func2 = function () {
+return 2
+}
+
+Target 103.10
+
+Find the sum of the values ​​of the functions func1 and func2. Display this amount on the screen by alert.
+
+alert (func1 () + func2 ());
+Target 104.1
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+function func () {
+alert ('!');
+}
+
+Function Declaration
+
+Target 104.2
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+let func = function () {
+alert ('!');
+}
+
+Function Expression
+
+
+Target 104.3
+
+Create the function as Function Declaration. Check that it will be available above your ad space.
+
+func ();
+
+function func () {
+alert ('Kind');
+}
+
+Target 104.4
+
+Create a function as Function Expression. Check that it will not be available above your ad space.
+
+funct ();
+let funct = function () {
+alert ('Day');
+}
+
+Target 104.5
+
+Place semicolons in all the necessary places:
+
+let func1 = function () {alert ('!')}
+let func2 = function () {
+alert ('!')
+}
+function func3 () {
+alert ('!')
+}
+
+let func1 = function () {alert ('!');};
+let func2 = function () {
+alert ('!');
+};
+function func3 () {
+alert ('!');
+};
+Target 105.1
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+function func () {
+alert ('!');
+}
+
+Function Declaration
+
+Target 105.2
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+let func = function () {
+alert ('!');
+}
+
+Function Expression:
+
+Target 105.3
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
++ function () {
+alert ('!');
+}
+Function Expression:
+
+Target 105.4
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+! function func () {
+alert ('!');
+}
+Function Expression:
+
+Target 105.5
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+-function func () {
+alert ('!');
+}
+Function Expression:
+
+Target 105.6
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+1 + function func () {
+alert ('!');
+}
+Function Expression:
+
+Target 105.7
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+(function func () {
+alert ('!');
+})
+
+Function Expression:
+
+Target 105.8
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+alert (
+function () {
+alert ('!');
+}
+);
+
+Function Expression:
+Target 105.9
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+let test = function func () {
+alert ('!');
+}
+Function Expression
+
+Target 105.10
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+alert (
+function func () {
+alert ('!');
+}
+);
+Function Expression
+
+Target 105.11
+
+Determine if the provided function is a Function Declaration or a Function Expression:
+
++ function func () {
+alert ('!');
+}
+Function Expression
+
+Target 105.12
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+function func () {
+alert ('!');
+}
+Function Declaration
+
+Target 105.13
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+-
+function func () {
+alert ('!');
+}
+Function Expression
+
+Target 105.14
+
+Determine if the provided function is Function Dec
+laration or Function Expression:
+
+-one;
+function func () {
+alert ('!');
+}
+
+Function Declaration
+
+Target 105.15
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+-one
+function func () {
+alert ('!');
+}
+Function Declaration
+
+Target 105.16
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+one
+function func () {
+alert ('!');
+}
+Function Declaration
+
+Target 105.17
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+-one-
+function func () {
+alert ('!');
+}
+Function Expression
+
+Target 105.18
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+function func () {
+alert ('!');
+}
++1;
+Function Declaration
+
+Target 105.19
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+function func () {
+alert ('!');
+} + 1;
+Function Declaration
+
+Target 105.20
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
++ function func () {
+alert ('!');
+} + 1;
+
+Function Expression
+
+Target 105.21
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
++
+function func () {
+alert ('!');
+} + 1;
+
+Function Expression
+
+Target 105.22
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
++1
+function func () {
+alert ('!');
+} + 1;
+
+Function Declaration
+
+Target 105.23
+
+Determine if the provided function is a Function Declaration or Function Expression:
+
+function func () {
+alert ('!');
+} + alert ('!');
+
+Function Declaration
+
+// Problem 106.1
+
+// Make an array arr with three functions. Let the first return number 1 through return, the second - number 2, the third - number 3.
+
+let arr = [
+function () {
+return Number (1);
+},
+function () {
+return Number (2);
+},
+function () {
+return Number (3);
+},
+];
+
+console.log (arr [1] ());
+
+// Problem 106.2
+
+// Using the arr array you created, display the number 3 by calling the appropriate function.
+
+let arr = [
+function () {
+return Number (1);
+},
+function () {
+return Number (2);
+},
+function () {
+return Number (3);
+},
+];
+
+alert (arr [2] ());
+
+Target 106.3
+
+Using the arr array you created, find the sum of the function results (without the loop).
+
+alert (arr [2] () + arr [1] () + arr [0] ());
+
+Target 106.4
+
+Loop through the arr array you created and display the results of all functions on the screen.
+
+for (let func of arr) {
+alert (func ());
+}
+
+// Problem 107.1
+
+// Make an object with three functions. Let the first return the number 1 through return, the second - the number 2, the third - the number 3. Using the created functions, display the sum of the returned numbers.
+
+let obj = {
+func1: function () {return 1},
+func2: function () {return 2},
+func3: function () {return 3}
+};
+
+console.log (obj.func1 () + obj.func2 () + obj.func3 ());
+
+Target 107.2
+
+Loop over the created object and display the results of the functions on the screen.
+
+for (let key in obj) {
+console.log (obj [key] ());
+}
+
+// Problem 107.3
+
+// Make an object with three functions, each of which will take an array of numbers as a parameter. Make the first function return the sum of the array elements, the second function returns the sum of squares, and the third function returns the sum of cubes.
+
+let obj = {
+func1: function (arr) {
+let sum = 0;
+for (let elem of arr) {
+sum + = elem
+}
+return sum
+},
+func2: function (arr) {
+let square = 0;
+for (let elem of arr) {
+square + = elem * elem
+}
+return square},
+func3: function (arr) {
+let cube = 0;
+for (let elem of arr) {
+cube + = elem * elem * elem
+}
+return cube
+}
+};
+
+let arr = [1,2,3,4,5,6];
+
+for (enter obj) {
+console.log (obj [key] (arr));
+}
+
+// Problem 108.1
+
+// Make the function test, which takes 3 functions as parameters. Pass in it the first parameter a function that returns 1, the second - a function that returns 2, and the third - a function that returns 3. Print the sum of the results of the functions on the screen.
+
+test (function () {return 1;},
+function () {return 2;},
+function () {return 3});
+
+
+function test (func1, func2, func3) {
+alert (func1 () + func2 () + func3 ());
+}
+
+Target 108.2
+
+Make a function test that takes 3 functions as parameters and returns the sum of the results of the passed functions.
+
+test (function () {return 1;},
+function () {return 2;},
+function () {return 3});
+
+
+function test (func1, func2, func3) {
+return (func1 () + func2 () + func3 ());
+}
+
+// Problem 108.3
+
+// Make 3 functions by declaring them as Function Declarations and naming them func1, func2 and func3. Let the first function return 1, the second - 2, and the third - 3. Pass these functions as a parameter to the test function from the previous task.
+
+function fnk1 () {
+return 1
+}
+
+function fnk2 () {
+return 2
+}
+
+function fnk3 () {
+return 3
+}
+
+function test (func1, func2, func3) {
+return (func1 () + func2 () + func3 ());
+}
+
+console.log (test (fnk1, fnk2, fnk3));
+
+// Problem 108.4
+
+// Modify
+e the previous task so that the functions are declared as Function Expressions with the same names.
+
+let fnk1 = function () {
+return 1
+}
+
+let fnk2 = function () {
+return 2
+}
+
+let fnk3 = function () {
+return 3
+}
+
+function test (func1, func2, func3) {
+return (func1 () + func2 () + func3 ());
+}
+
+console.log (test (fnk1, fnk2, fnk3));
+
+// Problem 108.5
+
+// Copy the code for my test function. Call this function, passing it an anonymous function as a parameter, which will take a number as a parameter and return its cube.
+
+test (function (num) {
+return num ** 3;
+});
+
+function test (func) {
+alert (func (3));
+}
+// Problem 108.6
+
+// Redesign your code so that the passed function is not anonymous, but defined as a Function Declaration named func.
+
+function func (num) {
+return num * num * num
+}
+
+test (func);
+
+function test (func) {
+alert (func (4));
+}
+
+// Problem 108.7
+
+// Modify the passed function to be a Function Expression of the same name func.
+
+let func = function (num) {
+return num * num * num
+}
+
+test (func);
+
+function test (func) {
+alert (func (4));
+}
+
+// Problem 108.8
+
+// Let the passed function now take two parameters and return their sum. When calling the passed function inside test, pass the number 2 and the number 3. to the function being passed. Output the result as an alert.
+
+let func = function (num, two) {
+return num + two
+}
+
+test (func);
+
+
+function test (func) {
+alert (func (4,6));
+}
+
+// Problem 108.9
+
+// Let the function test take a number as the first parameter, and functions that also take numbers as a parameter as the second and third parameters.
+
+// Let the test function return the sum of the results of the passed functions:
+
+
+// Call the test function, passing the number 3 as the first parameter, the function that squares the number as the second parameter, and the function that squares the number in the third. Display the result of your work on the screen.
+function func1 (numm) {
+return numm ** 2
+}
+function func2 (numm) {
+return numm ** 3
+}
+
+
+
+function test (num, func1, func2) {
+return func1 (num) + func2 (num);
+}
+
+
+alert (test (2, func1, func2));
+
+Target 108.10
+
+Without peeping into my code, implement the same test function yourself.
+
+function test (arr, func) {
+for (let i = 0; i <arr.length; i ++) {
+arr [i] = func (arr [i])
+}
+return arr
+}
+
+let arrr = [1, 2, 3];
+
+let res = test (arrr, function (num) {
+return num ** 2;
+});
+console.log (res);
+
+Target 108.11
+
+Call the test function you created, passing it an array with numbers as a parameter. Make the function return an array with cubes of these numbers.
+
+function test (arr, func) {
+for (let i = 0; i <arr.length; i ++) {
+arr [i] = func (arr [i])
+}
+return arr
+}
+
+let arrr = [1, 2, 3];
+
+let res = test (arrr, function (num) {
+return num ** 3;
+});
+console.log (res);
+
+// Problem 110.1
+
+// Make a func function that takes two numbers as parameters, and returns the sum of the square of the first number with the cube of the second number.
+
+// Make a helper function square to square the number and a helper function cube to cube the number for this.
+
+function func (num1, num2) {
+function square (num) {
+return num ** 2
+}
+
+function cube (num) {
+return num ** 3
+}
+
+return square (num1) + cube (num2);
+}
+
+alert (func (3,4));
+
+Target 111.1
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num = 1;
+
+function func () {
+alert (num);
+}
+
+func ();
+}
+
+test ();
+Answer: 1;
+
+Target 111.2
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num = 1;
+
+function func () {
+alert (num);
+}
+}
+
+test ();
+
+Answer: nothing;
+
+Target 111.3
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num = 1;
+
+function func () {
+alert (num);
+}
+
+func ();
+}
+
+Answer: nothing;
+
+Target 111.4
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num;
+
+function func () {
+alert (num);
+}
+
+num = 1
+func ();
+
+num = 2
+func ();
+}
+
+test ();
+
+Answer: 1, then 2;
+
+Target 111.5
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num1, num2) {
+function func () {
+alert (num1 + num2);
+}
+
+func ();
+}
+
+test (1, 2);
+
+Answer: 3
+
+Target 111.6
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num1, num2) {
+function func () {
+alert (num1 + num2);
+}
+
+num1 = 2;
+func ();
+}
+
+test (1, 2);
+
+Answer: 4
+
+Target 111.7
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (localNum) {
+alert (localNum);
+}
+
+func (num);
+}
+
+test (1);
+
+Answer: 1;
+
+Target 111.8
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (localNum) {
+alert (localNum);
+}
+
+func (num + 1);
+}
+
+test (1);
+
+Answer: 2;
+
+Target 111.9
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (localNum) {
+alert (num);
+}
+
+func (num + 1);
+}
+
+test (1);
+
+Answer; 1;
+
+Target 111.10
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (localNum) {
+localNum =
+
+2;
+}
+
+func (num);
+alert (num);
+}
+
+test (1);
+
+Answer: 1;
+
+Target 111.11
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (localNum) {
+localNum = 2;
+}
+
+func (num);
+alert (localNum);
+}
+
+test (1);
+
+Answer: nothing;
+
+Target 111.12
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (localNum) {
+num = 2;
+}
+
+func (num);
+alert (num);
+}
+
+test (1);
+
+Answer: 2;
+
+function test (num) {
+function func (num) {
+alert (num);
+}
+
+func (num);
+}
+
+test (1);
+
+Answer: 1;
+
+Target 111.14
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (num) {
+num = 2;
+}
+
+func (num);
+alert (num);
+}
+
+test (1);
+
+Answer: 1;
+
+Target 111.15
+
+Determine without running the code what will be displayed on the screen:
+
+function test (num) {
+function func (num) {
+alert (num);
+}
+
+num = 2;
+func (num);
+}
+
+test (1);
+
+Answer: 2;
+
+Target 111.16
+
+Determine without running the code what will be displayed on the screen:
+
+function test (number) {
+function function (number) {
+warning (number);
+}
+
+func (number);
+number = 2;
+}
+
+test (1);
+
+Purpose: 1;
+
+// Problem 112.1
+
+// Make func1, which, when called like this: func1 () (), will return 1. Make a similar function func2 that returns 2. Find the sum of the results of these functions.
+
+function func1 () {
+return function () {
+return 1
+};
+}
+
+function func2 () {
+return function () {
+return 2
+};
+}
+
+alert (func1 () () + func2 () ());
+
+// Problem 112.2
+
+// Make a function func, which when called like this: func () () () () () will return '!'.
+
+function func1 () {
+return function () {
+return function () {
+return function () {
+return function () {
+return '!'
+}
+}
+}
+}
+}
+alert (func1 () () () () ());
+
+// Problem 112.3
+
+// Make a function func, which, when called like this: func (2) (3) (4), will return the sum of the numbers passed to the parameters.
+
+function func (num1) {
+return function (num2) {
+return function (num3) {
+return num1 + num2 + num3
+}
+}
+}
+
+alert (func (2) (4) (6));
+
+// Problem 112.4
+
+// Make a function func, which, when called like this: func (2) (3) (4) (5) (), will return an array of the numbers passed to the parameters.
+
+
+function func (num1) {
+let arr = []
+return function (num2) {
+return function (num3) {
+return function (num4) {
+return function () {
+arr.push (num1, num2, num3, num4)
+return arr
+}
+}
+}
+}
+}
+
+
+
+
+alert (func (2) (3) (4) (5) ());
+
+Target 113.1
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num1 = 1;
+let num2 = 2;
+
+return function () {
+return num1 + num2;
+}
+}
+
+let func = test ();
+alert (func ());
+
+Answer: 3;
+
+Target 113.2
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num1 = 1;
+let num2 = 2;
+
+return function () {
+return num1 + num2;
+}
+}
+
+alert (test () ());
+
+Answer: 3;
+
+Target 113.3
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num1 = 1;
+
+return function () {
+return num1 + num2;
+}
+}
+
+let num2 = 2;
+let func = test ();
+alert (func ());
+
+Answer: 3;
+
+Target 113.4
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let num = 1;
+
+return function () {
+return num;
+}
+}
+
+let num = 2;
+let func = test ();
+alert (func ());
+
+Answer: 1;
+
+// Problem 114.1
+
+// On your own, without peeping into my code, implement a function call counter that works on closures.
+
+function test () {
+let num = 1;
+return function () {
+alert (num);
+num ++
+}
+}
+
+let func = test ();
+
+func ();
+func ();
+func ();
+
+// Problem 114.2
+
+// Let the function in the closure store the number 10. Make it so that each function call decreases this number by 1 and displays the reduced number.
+
+function test () {
+let num = 10;
+return function () {
+alert (num);
+num—
+}
+}
+
+let func = test ();
+
+func ();
+func ();
+func ();
+
+// Problem 114.3
+
+// Modify the previous task so that the countdown goes to 0, and then each subsequent function call displays a message that the countdown is over.
+
+function test () {
+let num = 10;
+return function () {
+if (num> = 0) {
+alert (num);
+}
+else {
+alert ('Countdown is over')
+}
+num—
+}
+}
+
+let func = test ();
+
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+
+Target 114.4
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+let num = 0;
+
+return function () {
+alert (num);
+num ++;
+};
+};
+
+func () ();
+func () ();
+func () ();
+
+Answer: 0;
+
+Target 114.5
+
+Determine without running the code what will be displayed on the screen:
+
+function func () {
+let num = 0;
+
+return function () {
+alert (num);
+num ++;
+};
+};
+
+let test = func;
+
+test () ();
+test () ();
+test () ();
+
+Answer: 0;
+
+Target 114.6
+
+Determine without running the code what will be displayed on the screen:
+
+let counter = 0;
+
+function test () {
+return function () {
+alert (counter);
+counter ++;
+};
+};
+
+let func = test;
+
+let func1 = func ();
+let func2 = func ();
+func1 ();
+func2 ();
+func1 ();
+func2 ();
+
+Answer; 0,1,2,3;
+
+Target 114.7
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let counter = 0;
+
+return functi
+on () {
+return function () {
+alert (counter);
+counter ++;
+};
+};
+};
+
+let func = test () ();
+
+let func1 = func;
+let func2 = func;
+func1 ();
+func2 ();
+func1 ();
+func2 ();
+
+Answer; 0,1,2,3;
+
+Target 114.8
+
+Determine without running the code what will be displayed on the screen:
+
+function test () {
+let counter = 0;
+
+return function () {
+return function () {
+alert (counter);
+counter ++;
+};
+};
+};
+
+let func = test ();
+
+let func1 = func ();
+let func2 = func ();
+func1 ();
+func2 ();
+func1 ();
+func2 ();
+
+Answer; 0,1,2,3;
+Target 115.1
+
+Determine without running the code what will be displayed on the screen:
+
+! function () {
+alert ('!');
+} ();
+
+Answer:!;
+
+Target 115.2
+
+Determine without running the code what will be displayed on the screen:
+
+function () {
+alert ('!');
+} ();
+
+Answer: error;
+
+Target 115.3
+
+Determine without running the code what will be displayed on the screen:
+
+let result = function () {
+return '!';
+} ();
+
+alert (result);
+
+Answer:!;
+
+Target 115.4
+
+Determine without running the code what will be displayed on the screen:
+
+let result = function () {
+return '!';
+};
+
+alert (result);
+
+Answer: function () {
+return '!';
+};
+
+Target 115.5
+
+Determine without running the code what will be displayed on the screen:
+
+let result = function () {
+return '!';
+};
+
+alert (result ());
+
+Answer:!;
+
+Target 115.6
+
+Determine without running the code what will be displayed on the screen:
+
+let result = function () {return 1;} () + function () {return 2;} ();
+alert (result);
+
+Answer: 3;
+
+Target 115.7
+
+Determine without running the code what will be displayed on the screen:
+
+let result = (function () {
+return '!';
+} ());
+
+alert (result);
+
+Answer:!;
+
+Target 115.8
+
+Determine without running the code what will be displayed on the screen:
+
+let result = (function () {
+return '!';
+}) ();
+
+alert (result);
+
+Answer:!;
+
+Target 115.9
+
+Determine without running the code what will be displayed on the screen:
+
+let result = (function () {
+return '!';
+});
+
+alert (result);
+
+Answer: (function () {
+return '!';
+});
+
+Target 115.10
+
+Determine without running the code what will be displayed on the screen:
+
+let result = (function () {
+return '!';
+});
+
+alert (result ());
+
+Answer:!;
+
+Target 115.11
+
+Determine without running the code what will be displayed on the screen:
+
+(function (num1, num2) {
+alert (num1 + num2);
+})(12);
+
+Answer: 3;
+
+Target 115.12
+
+Add the following code so that it will display '!' When triggered by an alert:
+
+(function () {
+return function () {
+return function () {
+alert ('!');
+}
+}
+}) () () ();
+
+Target 115.13
+
+Add the following code so that its launch displays the sum of the numbers passed by the parameters:
+
+(function () {
+// some code
+}) (1) (2);
+
+(function (num1) {
+return function (num2) {
+return num1 + num2
+}
+}
+) (1) (2);
+
+Target 115.14
+
+Add the following code so that its launch displays the sum of the numbers passed by the parameters:
+
+(function () {
+// some code
+}) (1) (2) (3);
+
+(function (num1) {
+return function (num2) {
+return function (num3) {
+alert (num1 + num2 + num3);
+}
+}
+}
+) (1) (2) (3);
+
+Target 115.15
+
+Determine without running the code what will be displayed on the screen:
+
+let str = 'str';
+
+(function () {
+alert (1);
+}) ();
+
+Answer: 1;
+
+Target 115.16
+
+Determine without running the code what will be displayed on the screen:
+
+let str = 'str'
+
+(function () {
+alert (1);
+}) ();
+
+Answer: Error
+Target 116.1
+
+Without peeking into my code, implement the same counter yourself.
+
+let func = function () {
+let num = 1;
+
+return function () {
+alert (num);
+num ++
+}
+} ();
+func ();
+func ();
+
+Target 116.2
+
+Modify the counter so that it counts to 5 and then starts over.
+
+let func = function () {
+let num = 1;
+
+return function () {
+
+if (num <5) {
+alert (num);
+}
+else {
+num = 0;
+}
+num ++
+}
+} ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+func ();
+// Problem 117.1
+
+// Given an array with strings. Use the each function we created to reverse the characters of each line.
+
+let arrrr = ['hshh', 'ssssdsa'];
+
+
+function rev (elem) {
+return elem.split (''). reverse (). join ('');
+}
+
+function each (arr, callback) {
+
+let arrr = [];
+
+for (let elem of arr) {
+arrr.push (callback (elem))
+}
+return arrr
+}
+
+console.log (each (arrrr, rev));
+// Problem 117.2
+
+// Given an array with strings. Capitalize the first character of each line with the each function we created.
+
+let arrrr = ['hshh', 'ssssdsa', '123'];
+
+
+function rev (elem) {
+let str = String (elem);
+return str.slice (0,1) .toUpperCase () + str.slice (1);
+}
+
+function each (arr, callback) {
+
+let arrr = [];
+
+for (let elem of arr) {
+arrr.push (callback (elem))
+}
+return arrr
+}
+
+console.log (each (arrrr, rev));
+// Problem 117.3
+
+// Given an array with numbers. Using the each function we created, find the product of each element in the array by its ordinal number.
+
+
+function each (arr, callback) {
+let arrr = [];
+let i = 1;
+for (let elem of arr) {
+arrr.push (callback (elem, i ++));
+}
+return arrr;
+}
+
+let res = each ([1, 2, 3, 4, 5], function (elem, index) {
+return elem * index;
+});
+// filter function
+
+
+// Problem 117.4
+
+// Implement a filter function that will filter the array. Let the function take an array as the first parameter, and a callback function as the second, and return an array of elements for which the callback function will return true.
+
+// An example of how such a function works (let's leave only even numbers in the array):
+
+let result = filter ([1, 2, 3, 4, 5], function (elem) {
+if (elem% 2! = 0) {
+return true;
+} else {
+return false;
+}
+});
+
+console.log (result); // displays [2, 4]
+// Let the first parameter of the callback contain an array element, and the second - its number.
+
+
+function filter (arr, callback) {
+let res = [];
+let i = 0;
+for (let elem of arr) {
+if (callback (elem)) {
+res.push (elem)
+}
+}
+return res
+}
+// Problem 117.5
+
+// Given an array with numbers. Leave only positive numbers in this array using the filter function we created.
+
+let result = filter ([1, 2, 3, -4, -5], function (elem) {
+if (elem> 0) {
+return true;
+} else {
+return false;
+}
+});
+
+console.log (result);
+
+
+
+function filter (arr, callback) {
+let res = [];
+let i = 0;
+for (let elem of arr) {
+if (callback (elem)) {
+res.push (elem)
+}
+}
+return res
+}
+// Given an array with strings. With the filter function we created, leave in this array only strings that are 1 to 3 characters long.
+
+let result = filter (['ST', 'STRssssss', 'STRsss', 'STRas', 'S'], function (elem) {
+if (elem.length <3 && elem.length> = 1) {
+return true;
+} else {
+return false;
+}
+});
+
+console.log (result);
+
+
+
+function filter (arr, callback) {
+let res = [];
+let i = 0;
+for (let elem of arr) {
+if (callback (elem)) {
+res.push (elem)
+}
+}
+return res
+
+// functions every and some
+// Problem 117.7
+
+// Implement every function that returns true if the callback function returns true for all elements in the array, and returns false otherwise.
+
+// An example of how such a function works (let's check that there are only positive numbers in the array):
+
+let result = every ([1, 2, 3, -4, 5], function (elem) {
+if (elem> 0) {
+return true;
+} else {
+return false;
+}
+});
+
+
+
+function every (arr, callback) {
+for (let elem of arr) {
+if (! callback (elem)) {
+return false
+}
+
+}
+return true
+}
+
+console.log (result);
+// Problem 117.8
+
+// Implement a function some that will return true if the callback function returns true for at least one element of the array, and will return false otherwise.
+
+// An example of how such a function works (let's check that there is at least one negative number in the array):
+
+let result = some ([1, 2, 3, 4, 5], function (elem) {
+if (elem <0) {
+return true;
+} else {
+return false;
+}
+});
+
+console.log (result); // will print false
+
+function some (arr, callback) {
+for (elem of arr) {
+if (callback (elem)) {
+return true
+}
+}
+return false
+}
+
+// function alternate
+// Problem 117.9
+
+// Implement the alternate function, which takes an array as the first parameter, and callbacks as the second and third.
+
+// The function should apply callbacks to the array elements one by one. That is: for the first element - the first callback, for the second element - the second callback, for the third - again the first callback, and so on until the array elements run out.
+
+// An example of such a function ():
+
+let result = alternate (
+['a', 'b', 'c', 'd', 'e'],
+function (elem) {
+return elem + '!';
+},
+function (elem) {
+return elem + '?';
+},
+);
+
+console.log (result); // will print ['a!', 'b?', 'c!', 'd? ',' e! ']
+
+alternative function (arr, callback1, callback2)
+{
+let res = [];
+for (let i = 0; i <arr.length; i ++)
+{
+if (i% 2! = 0)
+{
+res.push (callback1 (arr [i]));
+}
+else res.push (callback2 (arr [i]));
+}
+
+return res;
+}
+
+// Problem 118.1
+
+// Given the following function with a callback:
+
+let result = every ([1, 2, 3, 4, 5], function (elem) {
+if (elem> 0) {
+return true;
+} else {
+return false;
+}
+});
+
+let result => every ([1, 2, 3, 4, 5], elem => elem> 0);
+
+// Problem 118.2
+
+// Given the following function with a callback:
+
+let result = every ([1, 2, 3, 4, 5], function (elem, index) {
+if (elem * index> 10) {
+return true;
+} else {
+return false;
+}
+});
+
+let result = every ([1, 2, 3, 4, 5], (elem, index) => elem * index> 10);
+
+// Problem 118.3
+
+// Given the following function with a callback:
+
+let arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+let result = each (arr, function (elem, index) {
+if (elem * index> 10) {
+return true;
+} else {
+return false;
+}
+});
+// Simplify the callback with an arrow function.
+
+let result = each (arr, (elem, index) => elem * index> 10);
+
+// Problem 119.1
+// Make a function that recursively outputs the first 10 Fibonacci numbers. Fibonacci numbers are constructed as follows: each new number is equal to the sum of the two previous ones. The first two Fibonacci numbers are 1 and 2. The next number will be 1 + 2 = 3, the next number will be 2 + 3 = 5, and so on.
+
+// This is the basic code you should write:
+let i = 0;
+function func (prevPrevNum, prevNum) {
+let current = prevPrevNum + prevNum;
+prevPrevNum = prevNum;
+prevNum = current;
+console.log (current);
+i ++;
+if (i <10)
+func (prevPrevNum, prevNum);
+}
+func (1, 2);
+
+// Problem 119.2
+
+// Modify the previous task so that the function does not print numbers, but returns an array of the first 10 Fibonacci numbers:
+
+let i = 0;
+let arr = [];
+function func (prevPrevNum, prevNum) {
+
+let current = prevPrevNum + prevNum;
+prevPrevNum = prevNum;
+prevNum = current;
+arr.push (current);
+i ++;
+if (i <10)
+func (prevPrevNum, prevNum);
+return arr;
+}
+console.log (func (1, 2));
+
+Target 119.3
+
+Solve the described problem on your own, without looking at the code.
+function Digits (num) {
+return String (num) .split ('');
+}
+
+getSum (arr) {
+let sum = 0;
+for (let element arr) {
+sum + = Number (element);
+}
+refund of the amount
+}
+
+getDigitsSum function (number) {
+return getSum (Digits (number));
+}
+
+reduceNum function (number) {
+let sum = getDigitsSum (number);
+
+if (sum <= 9) {
+return the amount
+}
+else {
+return reduceNum (sum)
+}
+}
+
+console.log (reduceNum (1224333));
+
+
+// Problem 120.1
+
+// Given a multidimensional object of arbitrary nesting level, for example, this:
+
+// {a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: nine}}}}
+// // Use recursion to display all primitive elements of this object on the screen.
+
+
+
+function func (obj) {
+for (let key in obj) {
+if (typeof obj [key] == 'object') {
+func (obj [key])
+}
+else {
+console.log (obj [key]);
+}
+}
+}
+
+func ([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]);
+
+// Problem 120.2
+
+// Given a multidimensional object of arbitrary nesting level, for example, this:
+
+// {a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: nine}}}}
+// Use recursion to find the sum of the elements of this object.
+
+function func (obj) {
+let sum = 0
+for (let key in obj) {
+if (typeof obj [key] == 'object') {
+sum + = func (obj [key])
+}
+else {
+sum + = obj [key]
+}
+}
+return sum
+}
+
+func ([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]);
+
+// Problem 120.3
+
+// Given a multidimensional array of arbitrary nesting level containing strings inside, for example, like this:
+
+// ['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]
+// Use recursion to merge the elements of this array into one line:
+
+// 'abcdefgjk'
+function func (obj) {
+let sum = '';
+for (let key in obj) {
+if (typeof obj [key] == 'object') {
+sum + = func (obj [key])
+}
+else {
+sum + = obj [key]
+}
+}
+return sum
+}
+
+func (['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]);
+
+// Problem 120.4
+
+// Given a multidimensional array of arbitrary nesting level, for example, like this:
+
+// [1, [2, 7, 8], [3, 4], [5, [6, 7]]]
+// Square all the numeric elements of this array.
+
+
+function func (arr) {
+let sum = 0;
+for (let i = 0; i <arr.length; i ++) {
+if (typeof arr [i] == 'object') {
+sum + = func (arr [i])
+}
+else {
+sum + = arr [i] ** 2
+}
+}
+return sum
+}
+
+func ([1, [2, 7, 8], [3, 4], [5, [6, 7]]]);
+
+// Problem 120.5
+
+// Given a multidimensional array of arbitrary nesting level, for example, like this:
+
+// [1, [2, 7, 8], [3, 4, [5, [6, 7]]]]
+// Write some code that expands our multidimensional array to a one-dimensional one. For the above array, it would look like this:
+
+// [1, 2, 7, 8, 3, 4, 5, 6, 7]
+
+
+let array = [];
+function func (arr) {
+for (let elem of arr) {
+if (typeof (elem) == 'object') {
+func (elem)
+}
+else {
+array.push (elem);
+}
+}
+return array
+}
+
+console.log (func ([1, [2, 7, 8], [3, 4], [5, [6, 7]]]));
+
+// Advanced tasks
+// Problem 120.6
+
+// Given a multidimensional array of arbitrary nesting level, for example, like this:
+
+// [1, [2, 7, 8], [3, 4], [5, [6, 7]]]
+// Display all array elements containing only primitives.
+
+let array = [];
+function func (arr) {
+for (let i = 0; i <arr.length; i ++) {
+if (typeof (arr [i])! = 'object') {
+func (arr [i]);
+}
+else {
+array.push (arr [i]);
+}
+}
+return array
+}
+
+func ([1, [2, 7, 8], [3, 4], [5, [6, 7]]]);
+
+// Problem 120.7
+
+// Given a multidimensional array of arbitrary nesting level. Recursively calculate the maximum
+the nesting level of this array.
+
+let num = 0;
+function func (arr) {
+for (let elem of arr) {
+if (typeof (elem) == 'object') {
+func (elem);
+num ++
+}
+}
+return num
+}
+
+func ([1, [2, 7, 8], [3, 4], [5, [6, 7]]]);
+// Problem 121.1
+
+// Given an array with numbers. Using the map method, extract the square root of each element in the array and write the result into a new array.
+
+let arr = [1, 2, 3, 4, 5];
+
+let res = arr.map (function (elem) {
+return (Math.sqrt (elem))
+})
+
+console.log (res);
+// Problem 121.2
+
+// Given an array with strings. Using the map method, add a '!' To the end of the value of each element in the array.
+let arr = ['123', '456', '789'];
+
+let res = arr.map (function (elem) {
+return (elem + '!')
+})
+
+console.log (res);
+Target 121.3
+
+An array with strings is given. Using the map method, reverse the characters of each line in reverse order.
+
+let arr = ['123', '456', '789'];
+
+let res = arr.map (function (elem) {
+return elem.split (''). reverse (). join ('');
+})
+
+console.log (res);
+Target 121.4
+
+Given the following array:
+
+let arr = ['123', '456', '789'];
+Using the map method, convert this array to the following:
+
+let arr = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+];
+
+let result = arr.map (function (elem) {
+let res = []
+for (let i = 0; i <arr.length; i ++) {
+res.push (arr [i] .split (''))
+}
+return res
+})
+
+console.log (result);
+// Problem 121.5
+
+// Given an array with numbers. Using the map method, write to each element of the array the value of this element multiplied by its ordinal number in the array.
+
+let arr = [1, 2, 3, 4, 5];
+
+let result = arr.map (function (elem, index) {
+return elem * index
+})
+
+console.log (result);
+// Problem 122.1
+
+// Given an array with numbers. Using the forEach method, find the sum of the squares of the elements of this array.
+let arr = [1, 2, 3, 4, 5];
+let sum = 0;
+
+arr.forEach (function (elem) {
+sum + = elem ** 2
+})
+
+console.log (sum);
+// Problem 123.1
+
+// Given an array with numbers. Leave only positive numbers in it.
+let arr = [1, 2, 3, -4, 5];
+
+console.log (arr.filter (elem => elem> 0));
+// Problem 123.2
+
+// Given an array with numbers. Leave only negative numbers in it.
+let arr = [1, 2, 3, -4, 5];
+
+console.log (arr.filter (elem => elem <0));
+// Problem 123.3
+
+// Given an array with numbers. Leave in it only numbers that are greater than zero, but less than 10.
+let arr = [1, 2, 3, -4, 5];
+
+console.log (arr.filter (elem => elem> 0 && elem <10));
+// Problem 123.4
+
+// Given an array with strings. Leave in it only those lines that are longer than 5 characters.
+let arr = ['a', 'b', 'c', 'dasdss', 'easdasda'];
+
+console.log (arr.filter (elem => elem.length> 5));
+// Problem 123.5
+
+// Given an array with numbers. Leave in it only those numbers whose product by their ordinal number is less than 30.
+let arr = [1, 2, 3, -4, 8];
+
+console.log (arr.filter ((elem, index) => elem * index <30));
+// Problem 123.6
+
+// An array is given, it can contain ordinary elements and subarrays, for example [1, 2, [3, 4], 5, [6, 7]]. Leave only the usual elements in it.
+let arr = [1, 2, [3, 4], 5, [6, 7]];
+
+console.log (arr.filter (elem => typeof (elem)! = 'object'));
+// Problem 123.7
+
+// Given an array with numbers. Count the number of negative numbers in this array.
+let arr = [1, 2, -3, 4, -5];
+
+console.log (arr.filter (elem => elem> 0) .length);
+// Problem 124.1
+
+// Given an array with numbers. Check that all elements in the array are greater than zero.
+let arr = [1, 2, -3, 4, -5];
+
+console.log (arr.every (elem => elem> 0));
+
+// Problem 124.2
+
+// Given an array with numbers. Check that for all elements the product of their values ​​and their ordinal number is less than 30.
+
+let arr = [2, 4, 6, 16];
+
+console.log (arr.every ((elem, index) => elem * index <30));
+// Problem 125.1
+
+// Given an array with numbers. Check that there is at least one number greater than zero in the array.
+
+let arr = [-2, -4, -6, 16];
+
+console.log (arr.some (elem => elem> 0));
+at 23:19
+// Problem 125.2
+
+// Given an array with numbers. Check that for at least one element the product of its value by the ordinal number is greater than 30.
+
+let arr = [-2, -4, -6, 16];
+
+console.log (arr.some ((elem, index) => elem * index> 30));
+
+// Problem 126.1
+
+// Given an array:
+
+let arr = [1, 2, 3, 4, 5];
+
+function func (num1, num2, num3, num4, num5) {
+return num1 + num2 + num3 + num4 + num5;
+}
+
+func (... [1, 2, 3, 4, 5]);
+
+Target 126.2
+
+Without running the code, define what will be output to the console:
+
+function func (n1, n2, n3, n4, n5, n6, n7, n8) {
+return (n1 + n2 + n3 + n4) * (n5 + n6 + n7 + n8);
+}
+
+console.log (func (1, ... [2, 3, 4], 5, ... [6], ... [7, 8]));
+
+Target 126.3
+
+An array with numbers is given. Using Math.min and spread, print the minimum value of the array.
+
+let arr = [2, 6, 3, 4, 5];
+
+let min = Math.min (... arr);
+console.log (min);
+
+
+Target 127.4
+
+Without running the code, define what will be output to the console:
+
+let arr1 = [1, 2, 3];
+let arr2 = [... arr1, 4, 5, 6];
+let arr3 = [... arr2, 7, 8, 9];
+
+let arr = [0, ... arr3];
+console.log (arr);
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Target 127.5
+
+Without running the code, define what will be output to the console:
+
+let arr1 = [1, 2, 3];
+let arr2 = [... arr1];
+
+console.log (arr2);
+
+[1, 2, 3]
+
+Target 128.1
+
+Without running the code, determine what will be output to the console:
+
+let arr = [... '12345'];
+console.log (arr);
+
+['1', '2', '3', '4', '5']
+
+Target 128.2
+
+Without running the code, determine what will be output to the console:
+
+let arr = ['a', ... '12345'];
+console.log (arr);
+
+['a', '1', '2', '3', '4', '5']
+
+Target 128.3
+
+Without running the code, determine what will be output to the console:
+
+let arr = [... '12345', ... '56789'];
+console.log (arr);
+
+['1', '2', '3', '4', '5', '5', '6', '7', '8', '9']
+
+Target 128.4
+
+Without running the code, determine what will be output to the console:
+
+let arr1 = ['a', 'b', 'c'];
+let arr2 = [... arr1, ... '12345'];
+
+console.log (arr2);
+
+['a', 'b', 'c', '1', '2', '3', '4', '5']
+
+Target 130.1
+
+Write a function that will take as parameters an arbitrary number of numbers and return their arithmetic mean (the sum divided by the number).
+
+function func (... nums) {
+let sum = 0;
+for (let num of nums) {
+sum + = num;
+}
+return sum / nums.length
+}
+
+console.log (func (1,2,3));
+
+Target 130.2
+
+For comparison, implement our function without using the rest operator.
+
+let result = unite ([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+function unite (arr1, arr2, arr3) {
+let arr = [];
+arr.push (arr1);
+arr.push (arr2);
+arr.push (arr3);
+return arr;
+}
+console.log (result); // prints [[1, 2, 3,] [4, 5, 6], [7, 8, 9]]
+
+Target 130.3
+
+For comparison, implement our function without using the rest operator.
+
+merge ([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+
+// function merge (... arrs) {
+// return [] .concat (... arrs)
+//}
+
+function merge (arr1, arr2, arr3) {
+let arr = [];
+arr.push (arr1);
+arr.push (arr2);
+arr.push (arr3);
+let res = [];
+for (let elem of arr) {
+for (let subElem of elem) {
+res.push (subElem)
+}
+}
+return res;
+}
+Target 131.1
+
+On your own, without peeping into my code, repeat the solution to the described problem.
+
+function getInt (... arrs) {
+let result = [];
+let arr0 = arrs.shift ();
+
+for (let elem of arr0) {
+if (inArrays (elem, arrs)) {
+result.push (elem);
+}
+}
+return result
+}
+function inArrays (elem, arrs) {
+for (let arr of arrs) {
+if (! inArray (elem, arr)) {
+return false
+}
+
+}
+return true
+}
+
+function inArray (elem, arr) {
+return arr.indexOf (elem)! == - 1;
+}
+
+
+let result = getInt ([1, 2, 3], [2, 3, 4], [4, 3, 2]);
+console.log (result);
+
+// Problem 133.1
+
+// In the following code, the parts of the array are written to the corresponding variables:
+
+let arr = ['Ivan', 'Ivanov', 'development department', 'programmer', 2000];
+
+// let name = arr [0];
+// let surname = arr [1];
+// let department = arr [2];
+// let position = arr [3];
+// let salary = arr [4];
+// Refactor this code through destructuring according to the theory learned.
+
+let [name, surname, department, position, salary] = arr;
+
+console.log (surname);
+
+// Problem 133.2
+
+// In the following code, parts of the array are written to the corresponding variables:
+
+function func () {
+return ['Ivan', 'Ivanov', 'development department', 'programmer', 2000];
+}
+
+let [name, surname, department, position, salary] = func ();
+
+// let name = arr [0];
+// let surname = arr [1];
+// let department = arr [2];
+// let position = arr [3];
+// le
+t salary = arr [4];
+// Refactor this code through destructuring according to the theory learned.
+
+
+console.log (name);
+
+// Problem 133.3
+
+// In the following code, parts of the array are written to the corresponding variables:
+
+let arr = ['Ivan', 'Ivanov', 'development department', 'programmer', 2000];
+
+// Problem 133.4
+
+// In the following code, parts of the array are written to the corresponding variables:
+
+let arr = ['Ivan', 'Ivanov', 'development department', 'programmer', 2000];
+
+// let name = arr [0];
+// let surname = arr [1];
+
+// let info = arr.slice (2); // all elements from the second to the end of the array
+// Refactor this code through destructuring according to the theory learned.
+
+let [name, surname, ... info] = arr;
+console.log (info);
+
+// Refactor this code through destructuring according to the theory learned.
+
+let [,, department, position,] = arr;
+
+Target 133.5
+
+In the following code, parts of the array are written to the corresponding variables:
+
+let arr = ['Ivan', 'Ivanov', 'development department', 'programmer'];
+
+let name = arr [0];
+let surname = arr [1];
+let department = arr [2];
+
+let position;
+if (arr [3]! == undefined) {
+position = arr [3];
+} else {
+position = 'junior';
+}
+Modify this code through destructuring according to the theory learned.
+
+console.log (department);
+
+// Problem 133.5
+
+// In the following code, parts of the array are written to the corresponding variables:
+
+let arr = ['Ivan', 'Ivanov', 'development department', 'programmer'];
+
+
+// let position;
+// if (arr [3]! == undefined) {
+// position = arr [3];
+//} else {
+// position = 'junior';
+//}
+// Refactor this code through destructuring according to the theory learned.
+
+let [name, surname, department, position = 'junior'] = arr;
+
+console.log (position);
+
+// Problem 133.6
+
+// Modify the above code so that if there is no value for the month in the array, the current month is taken by default, and if there is no value for the year - the current year, respectively.
+
+function func () {
+return (new Date) .getDate ();
+}
+// Let's set this function as the value of the variable day:
+
+let arr = [,, '25']
+
+let [year = '2020', month = '11 ', day = func ()] = arr;
+console.log (year);
+console.log (month);
+
+// Problem 134.1
+
+// In the following code, parts of the object are written to the corresponding variables:
+
+let options = {
+color: 'red',
+width: 400,
+height: 500,
+};
+
+// let color = options.color;
+// let width = options.width;
+// let height = options.height;
+// Refactor this code through destructuring according to the theory learned.
+
+let {color, width, height} = options;
+console.log (color);
+
+// Problem 134.2
+
+// In the following code, parts of the object are written to the corresponding variables:
+
+let options = {
+color: 'red',
+width: 400,
+height: 500,
+};
+
+// let c = options.color;
+// let w = options.width;
+// let h = options.height;
+// Refactor this code through destructuring according to the theory learned.
+
+let {color: c, width: w, height: h} = options;
+console.log (c);
+
+// Problem 134.3
+
+// In the following code, parts of the object are written to the corresponding variables:
+
+let options = {
+width: 400,
+height: 500,
+};
+
+// let color;
+// if (options.color! == undefined) {
+// color = options.color;
+//} else {
+// color = 'black';
+//}
+
+// let width = options.width;
+// let height = options.height;
+// Refactor this code through destructuring according to the theory learned.
+
+let {color = 'black', width, height} = options;
+
+console.log (color);
+console.log (width);
+
+// Problem 134.4
+
+// In the following code, parts of the object are written to the corresponding variables:
+
+let options = {
+width: 400,
+height: 500,
+};
+
+// let c;
+// if (options.c! == undefined) {
+// c = options.color;
+//} else {
+// c = 'black';
+//}
+
+// let w = options.width;
+// let h = options.height;
+
+let {color: c = 'black', width, height} = options;
+console.log (c);
+// Refactor this code through destructuring according to the theory learned.
+
+
+Modify the following code through destructuring according to the theory learned:
+
+function func (employee) {
+let name = employee [0];
+let surname = employee [1];
+let department = employee [2];
+let position = employee [3];
+let salary = employee [4];
+}
+
+func (['Ivan', 'Ivanov', 'development department', 'programmer', 2000]);
+
+function func ([name, surname, department, position, salary]) {
+console.log (name);
+console.log (surname);
+console.log (department);
+console.log (position);
+console.log (salary);
+}
+
+func (['Ivan', 'Ivanov', 'development department', 'programmer', 2000]);
+
+// Problem 135.2
+
+// Rewrite the following code through destructuring according to the theory learned:
+
+// function func (employee) {
+// let name = employee [0];
+// let surname = employee [1];
+// let info = employee.slice (2);
+//}
+
+func (['Ivan', 'Ivanov', 'development department', 'programmer', 2000]);
+
+function func ([name, surname, ... info]) {
+console.log (name);
+console.log (surname);
+console.log (... info);
+}
+
+// Problem 135.3
+
+// Rewrite the following code through destructuring according to the theory learned:
+
+// function func (employee) {
+// let name =
+employee [0];
+// let surname = employee [1];
+// let department = employee [2];
+
+// let position;
+// if (arr [3]! == undefined) {
+// position = arr [3];
+//} else {
+// position = 'junior';
+//}
+//}
+
+func (['Ivan', 'Ivanov', 'development department']);
+
+function func ([name, surname, department, position = 'junior']) {
+console.log (name);
+console.log (surname);
+console.log (department);
+console.log (position);
+}
+
+// Problem 135.4
+
+// Rewrite the following code through destructuring according to the theory learned:
+
+// function func (department, employee, hired) {
+// let name = employee [0];
+// let surname = employee [1];
+
+// let year = hired [0];
+// let month = hired [1];
+// let day = hired [2];
+//}
+
+func ('development department', ['Ivan', 'Ivanov'], '2018-12-31');
+
+function func (department, [name, surname], hired) {
+let [year, month, day] = hired.split ('-');
+console.log (department);
+console.log (name);
+console.log (surname);
+console.log (year);
+console.log (month);
+console.log (day);
+}
+
+// Problem 135.5
+
+// Rewrite the following code through destructuring according to the theory learned:
+
+// function func (options) {
+// let color = options.color;
+// let width = options.width;
+// let height = options.height;
+//}
+
+func ({color: 'red', width: 400, height: 500});
+
+function func ({color, width, height}) {
+console.log (color);
+console.log (width);
+console.log (height);
+}
+
+Target 135.6
+
+Modify the following code through destructuring according to the theory learned:
+
+function func (options) {
+let width = options.width;
+let height = options.height;
+
+let them paint;
+if (options.color! == undefined) {
+color = options.color;
+} yet {
+color = 'black';
+}
+}
+
+func ({color: 'red', width: 400, height: 500});
+
+function func ({color = 'black', width, height}) {
+console.log (color);
+console.log (width);
+console.log (height);
+}
+
+func ({color: 'red', width: 400, height: 500});
+
+Target 136.1,2,3
+
+let date = new Date ();
+
+console.log (date.getFullYear ());
+console.log (date.getMonth ());
+console.log (date.getDate ());
+
+// Problem 137.1
+
+// Display the current date-time in the format '12: 59: 59 12/31/2014 '. Use the function we created for all parts of the date (except the year) to add zero if necessary
+
+let date = new Date ();
+
+function addZero (num) {
+if (num> = 0 && num <= 9) {
+return '0' + num
+}
+else {
+return num
+}
+}
+
+console.log (addZero (date.getHours ()) + ':' + addZero (date.getMinutes ()) + ':' + addZero (date.getSeconds ()) + '' + (date.getFullYear ()) + '-' + addZero (date.getMonth () + 1) + '-' + addZero (date.getDate ()));
+
+// Problem 137.2
+
+// Given a date in the format year-month-day. Convert this date to day.month.year format.
+
+let str = '2025-12-31';
+console.log (str.split ('-'). reverse (). join ('.'));
+LikeShow LikesReply
+Igor Zvanko
+Igor Zvanko November 26, 2020 in 17:22
+// Problem 138.1
+
+// Display the number of the current day of the week.
+
+let date = new Date ();
+console.log (date.getDay ());
+
+// Problem 138.2
+
+// Determine if the current day of the week is a weekend or a weekday.
+
+
+let day = date.getDay ();
+if (day == 6 || day == 0) {
+console.log (day + 'Day off');
+}
+else {
+console.log (day + 'Working');
+}
+
+// Problem 138.3
+
+// Determine how many days are left until the next Sunday.
+
+let toSun = 6-day;
+if (toSun == 0) {
+console.log ('6 days left');
+}
+console.log ('Remaining' + toSun + 'Days');
+
+// Problem 139.1
+
+// Let the following array be given:
+
+let date = new Date ();
+let month = date.getMonth ();
+let months = [
+'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+Jul, Aug, Sep, Oct, Nov, Dec
+];
+
+console.log (months [month]);
+
+Target 140.1
+
+let date = new Date (1994, 5, 6);
+let day = date.getDay ();
+let days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+
+console.log (days [day]);
+
+// Problem 141.1
+
+// Display the timestamp corresponding to January 1, 2025.
+
+let date = new Date (2025,1,1);
+console.log (date.getTime ());
+
+// Problem 141.2
+
+// Display the number of days between March 1, 1988 and January 10, 2000.
+
+let last = new Date (1988,3,1);
+let news = new Date (2000,1,10);
+let rand = news.getTime () - last.getTime ();
+console.log (rand / (1000 * 60 * 60 * 24));
+
+// Problem 141.3
+
+// Display the number of months between your birth and the current point in time.
+
+let last = new Date (1994,5,6);
+let news = new Date ();
+let rand = news.getTime () - last.getTime ();
+console.log (rand / (1000 * 60 * 60 * 24 * 30));
+
+// Problem 142.1
+
+// Display the number of milliseconds between September 1, 2000 and February 15, 2010.
+
+console.log (new Date (2010,2,15) -new Date (2000,9,1));
+
+// Problem 142.2
+
+// Modify the previous task to display the difference in days.
+
+console.log ((new Date (2010,2,15) -new Date (2000,9,1)) / (100
+0 * 60 * 60 * 24));
+
+// Problem 142.3
+
+// Modify the previous task to display the difference in months.
+
+console.log ((new Date (2010,2,15) -new Date (2000,9,1)) / (1000 * 60 * 60 * 24 * 30));
+
+// Problem 142.4
+
+// Modify the previous task to display the difference in years.
+
+console.log ((new Date (2010,2,15) -new Date (2000,9,1)) / (1000 * 60 * 60 * 24 * 30 * 12));
+
+Target 143.1
+
+Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 1, 35);
+console.log (date); // what date will it be?
+
+07.03.2018
+
+// Problem 143.2
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 15, 1);
+console.log (date); // what date will it be?
+// 2019.04.01
+
+// Problem 143.3
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 3, 31);
+console.log (date); // what date will it be?
+// 05/01/2018
+
+// Problem 143.4
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 1, 31);
+console.log (date); // what date will it be?
+03.03.2018
+
+// Problem 143.5
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 12, 33);
+console.log (date); // what date will it be?
+
+02.02.2019
+
+// Problem 143.6
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 33, 33);
+console.log (date); // what date will it be?
+02.11.2020
+
+// Problem 143.7
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 5, 0);
+console.log (date); // what date will it be?
+
+05/30/2018
+
+// Problem 143.8
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 0, 0);
+console.log (date); // what date will it be?
+
+
+31.12.2017
+
+// Problem 143.9
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 33, 33);
+console.log (date); // what date will it be?
+02.11.2020
+
+// Problem 143.10
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 0, 1, 23, 0, 60);
+console.log (date); // what date will it be?
+
+2018.1.1 23:01:00
+
+Target 143.11
+
+Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 0, 1, 23, 60, 0);
+console.log (date); // what date will it be?
+
+2018.01.02.00.00.0
+
+// Problem 143.12
+
+// Determine to which date JavaScript will convert the following point in time:
+
+let date = new Date (2018, 0, 1, 100, 100, 100);
+console.log (date); // what date will it be?
+
+2018.1.5.5.40.40
+// Problem 144.1
+
+// Optional task for those who like to code: add the code of the presented function to the end. Note that a leap year is not necessarily a multiple of 4. Google its definition.
+
+function getLastDay (month, year) {// the function must also accept the year
+let lastDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+if (month! = 1) {
+return lastDays [month]; // if not february
+} else {
+if (year% 400 == 0 || year% 4 == 0) {
+return lastDays [1] = 29;
+}
+else {
+return lastDays [1] = 28;
+}
+}
+}
+
+console.log (getLastDay (1,2020));
+
+Target 144.2
+
+Form this way of solving the problem in the form of a function that will take the month and year as parameters and return the number of the last day of this month.
+
+function dates (year, month) {
+let date = new Date (year, month, 0)
+return date
+}
+
+console.log (dates (2020,3))
+
+Target 144.3
+
+Determine what day of the week will be on the last day of the fifth month of 2025.
+
+function dates (year, month) {
+let date = new Date (year, month, 0);
+let days = date.getDay ();
+let day = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+return day [days];
+}
+
+console.log (dates (2025.5));
+
+// Problem 144.4
+
+// Make the isLeap function, which will take a year as a parameter and return true if this is a leap year, and false if not.
+
+function isLeap (year) {
+let date = new Date (year, 2,0)
+if (date.getDate () == 29) {
+return true
+}
+return false
+}
+
+console.log (isLeap (2021));
+
+// Problem 145.1
+
+// Make a function checkDate that will perform the described check. Let the function return true if the date is correct and false if not. An example of how this function works for January 31 and January 32:
+
+function checkDate (year, month, day) {
+let date = new Date (year, month, day);
+
+if (date.getFullYear () == year && date.getMonth () == month && date.getDate () == day) {
+return true
+} else {
+return false
+}
+}
+
+
+console.log (checkDate (2025, 0, 31)); // prints true
+console.log (checkDate (2025, 0, 32)); // will print false
+
+Target 146.1
+
+Determine what day of the week will be December 31 of the current year.
+
+let now = new Date (); // get the current moment
+
+console.log
+
+(days [date.getDay ()]);
+
+// Task 146.4
+
+// Determine what day of the week will be in a year on the same date as today.
+
+
+let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+let now = new Date ();
+let date = new Date (now.getFullYear (), now.getMonth (), now.getDay () + 1,0,1);
+
+console.log (days [date.getDay ()]);
+
+Target 146.5
+
+Determine what day of the week was a year ago on the same date as today.
+
+
+let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+let now = new Date ();
+let date = new Date (now.getFullYear (), now.getMonth (), now.getDay () - 1,0,1);
+
+console.log (days [date.getDay ()]);
+
+// Problem 146.6
+
+// Question: will there be a problem if the current month is January? After all, it has the number 0, and when one subtracts from it, we get minus the first month.
+
+Automatic date correction will work.
+
+// Problem 146.7
+
+// Determine what day of the week was a month ago on the same day of the month as today.
+
+let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+let now = new Date ();
+let date = new Date (now.getFullYear (), now.getMonth (), now.getDay () - 1,1);
+
+console.log (days [date.getDay ()]);
+
+// Problem 146.8
+
+// Determine how many days are between January 1 and September 10 of the current year.
+
+
+let now = new Date ();
+let datesep = new Date (now.getFullYear (), 8, 10);
+let datejan = new Date (now.getFullYear (), 0, 1);
+let div = datesep - datejan;
+console.log (div / (1000 * 60 * 60 * 24));
+
+// Problem 146.9
+
+// Determine how many days between the 20th of the current month and the 10th of the next.
+
+
+let now = new Date ();
+let datesep = new Date (now.getFullYear (), now.getMonth (), 20);
+let datejan = new Date (now.getFullYear (), now.getMonth () + 1.10);
+let div = datejan-datesep;
+console.log (div / (1000 * 60 * 60 * 24));
+
+// Problem 146.10
+
+// Determine how many hours have passed between yesterday afternoon and the current time.
+
+
+let now = new Date ();
+let datesep = new Date (now.getFullYear (), now.getMonth (), now.getDate () - 1.12);
+let datejan = new Date (now.getFullYear (), now.getMonth (), now.getDate (), now.getHours ());
+let div = datejan-datesep;
+console.log (div / (1000 * 60 * 60));
+
+// Problem 146.11
+
+// Determine how many hours have passed between the beginning of the day and the current moment in time
+
+
+let now = new Date ();
+let datesep = new Date (now.getFullYear (), now.getMonth (), now.getDate (), 0,0,0);
+let datejan = new Date (now.getFullYear (), now.getMonth (), now.getDate (), now.getHours ());
+let div = datejan-datesep;
+console.log (div / (1000 * 60 * 60));
+
+// Problem 146.12
+
+// Determine how many hours are left until the end of the day.
+
+
+let now = new Date ();
+let datesep = new Date (now.getFullYear (), now.getMonth (), now.getDate (), 24);
+let datejan = new Date (now.getFullYear (), now.getMonth (), now.getDate (), now.getHours ());
+let div = datesep-datejan;
+console.log (div / (1000 * 60 * 60));
+
+// Task 146.13
+
+// Consider the span from 2000 to the current year. Determine how many times January 1 in this interval falls on a weekend, that is, on Saturday or Sunday.
+
+let now = new Date ();
+let count = 0;
+
+for (let year = 2000; year <= 2020; year ++) {
+let date = new Date (year, 0,1);
+
+
+if (date.getDay () == 6 || date.getDay () == 0) {
+count ++
+}
+
+}
+console.log (count);
+
+// Problem 147.1
+
+// Determine how many seconds have elapsed from the start of the day to the present.
+
+let now = new Date ();
+
+let date1 = new Date (now.getFullYear (), now.getMonth (), now.getDate ());
+let div = (now-date1) / 1000;
+console.log (div);
+
+// Problem 147.2
+
+// Determine how many seconds are seconds left until the end of the day.
+
+let now = new Date ();
+
+let date1 = new Date (now.getFullYear (), now.getMonth (), now.getDate (), 23,59,59);
+let div = (date1-now) / (1000);
+console.log (div);
+
+// Problem 147.3
+
+// Determine how many days are left until the new year.
+
+let now = new Date ();
+
+let date1 = new Date (now.getFullYear (), 11,31,23,59,59);
+let div = (date1-now) / (1000 * 60 * 60 * 24);
+console.log (div);
+
+// Problem 147.4
+
+// Determine how many Fridays are the 13th in the current year.
+
+let now = new Date ();
+let count = 0;
+
+for (let month = 0; month <= 11; month ++) {
+let date = new Date (2020, month, 13)
+
+if (date.getDay () == 5) {
+count ++
+}
+}
+
+console.log (count);
+
+// Problem 147.5
+
+// Determine what year was 3 months ago.
+
+let now = new Date ();
+let div = new Date (now.getFullYear (), now.getMonth () - 3, now.getDate ());
+console.log (div.getFullYear ());
+
+// Problem 147.6
+
+// Determine what day of the week will be on the last day of the current month.
+
+let now = new Date ();
+let div = new Date (now.getFullYear (), 11,31);
+let days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+console.log (days [div.getDay ()]);
+
+// Problem 147.7
+
+// Determine how many days are left until the end of the month of the year.
+
+let now = new Date ();
+let div = new Date (now.getFullYear (), 10,31);
+let diff = div-now;
+console.log (diff / (1000 * 60 * 60 * 24));
+
+// Problem 147.8
+
+// Write some code to determine if the current year is a leap year.
+let date = new Date (2020, 2, 0);
+if (date.
+getDate () == 29) {
+alert ('tall');
+} else alert ('no');
+
+Target 147.9
+
+Write a code that will find the previous leap year.
+
+for (let year = 1950; year <= 2020; year ++) {
+let date = new Date (year, 2,0);
+
+if (date.getDate () == 29) {
+console.log (year);
+}
+
+}
+
+// Problem 147.10
+
+// Write code that will find the next leap year.
+
+for (let year = 2020; year <= 2100; year ++) {
+let date = new Date (year, 2,0);
+
+if (date.getDate () == 29) {
+console.log (year);
+}
+}
+
+// Write some code that compares the two dates below and prints a message telling you which one is greater:
+
+let date1 = '2020-11-31';
+let date2 = '2020-12-01';
+if (date1> date2) {
+alert ('date1 is greater than date2');
+}
+else {alert ('date1 is less than date2');
+}
+
+// Problem 148.2
+
+// Write some code that compares the two dates below and prints a message telling you which one is greater:
+
+let date1 = '09 -21 ';
+let date2 = '09 -23 ';
+if (date1> date2) {
+alert ('date1 is greater than date2');
+}
+else {alert ('date1 is less than date2');
+}
+
+// Problem 148.3
+
+// Given a date containing month and day. Determine the zodiac sign this date falls on.
+
+let date = '07 -20 ';
+
+if (date> = '03 -21 '&& date <= '04 -20') {
+console.log ('Aries');
+}
+
+if (date> = '04 -21 '&& date <= '05 -21') {
+console.log ('Taurus');
+}
+
+if (date> = '05 -22 '&& date <= '06 -21') {
+console.log ('Gemini');
+}
+
+if (date> = '06 -22 '&& date <= '07 -22') {
+console.log ('Cancer');
+}
+
+if (date> = '07 -23 '&& date <= '08 -21') {
+console.log ('Lion');
+}
+
+if (date> = '08 -22 '&& date <= '09 -23') {
+console.log ('Virgo');
+}
+
+if (date> = '09 -24 '&& date <= '10 -23') {
+console.log ('Libra');
+}
+
+if (date> = '10 -24 '&& date <= '11 -22') {
+console.log ('Scorpio');
+}
+
+if (date> = '11 -23 '&& date <= '12 -22') {
+console.log ('Sagittarius');
+}
+
+if (date> = '12 -23 '&& date <= '01 -20') {
+console.log ('Capricorn');
+}
+
+if (date> = '01 -21 '&& date <= '02 -19') {
+console.log ('Aquarius');
+}
+
+if (date> = '02 -20 '&& date <= '03 -20') {
+console.log ('Pisces');
+
+// Problem 149.1
+
+// Get a date object containing the current moment in time. Get a date object containing the noon of the current day. Compare these two objects and determine if it was already noon or not.
+
+let now = new Date ();
+let date1 = new Date (now.getFullYear (), now.getMonth (), now.getDate (), 12);
+
+if (now> date1) {
+alert ('It was noon');
+}
+else {
+alert ('Wasn't there')
+}
+
+// Problem 149.2
+
+// Get a date object containing the current moment in time. Get a date object containing the 15th of the current month. Compare these two objects and determine if half a month has passed or not.
+
+let now = new Date ();
+let date1 = new Date (now.getFullYear (), now.getMonth (), 15);
+
+if (now> date1) {
+alert ('Passed');
+}
+else {
+alert ('Failed')
+}
+
+Target 150.1
+
+Using the code I gave you, finally solve the problem.
+
+let now = new Date ();
+let date = new Date (now.getFullYear (), 2, 8); // this year
+
+let res = 0;
+let diff = date - now;
+
+if (diff> 0) {
+res = date-now;
+
+} else if (diff == 0) {
+res = 0;
+
+} else {
+date = new Date (now.getFullYear () + 1,2,8);
+res = date-now;
+}
+
+alert (res / (1000 * 60 * 60 * 24));
+
+Target 150.2
+
+May your Birthday be March 1st. Determine how many days are left until your next birthday.
+
+let now = new Date ();
+let date = new Date (now.getFullYear (), 2, 1); // this year
+
+let res = 0;
+let diff = date - now;
+
+if (diff> 0) {
+res = date-now;
+
+} else if (diff == 0) {
+res = 0;
+
+} else {
+date = new Date (now.getFullYear () + 1,2,1);
+res = date-now;
+}
+
+alert (res / (1000 * 60 * 60 * 24));
+
+// Problem 150.3
+
+// Now let the Birthday be arbitrary and is contained in the month and day variables. Determine how many days are left before the holiday set by this date. Consider when deciding that there are lucky ones who were born on February 29th. Don't forget to take them into account in your decision.
+
+function birth (month, day) {
+let now = new Date ();
+date = new Date (now.getFullYear (), month, day);
+let res = 0;
+let diff = date - now;
+
+if (diff> 0) {
+res = date-now;
+return res / (1000 * 60 * 60 * 24)
+
+} otherwise, if (diff == 0) {
+return res = 0;
+
+} else {
+date = new Date (now.getFullYear () + 1, month, day);
+res = date-now;
+return res / (1000 * 60 * 60 * 24)
+}
+}
+
+console.log (birth (2,4));
+
+console.log (p3);
+</script>
+</body>
+</html>
+
+Target 153.2
+
+Given the following HTML:
+
+<div id = "block">
+<p> 1 </p>
+<p> 2 </p>
+</div>
+Get a link to the first paragraph from a div with an id equal to a block.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div id = "block">
+<p> 1 </p>
+<p> 2 </p>
+</div>
+
+<script>
+let p1 = document.querySelector ('# block p');
+console.log (p1);
+</script>
+</body>
+</html>
+
+.3
+
+Given the following HTML:
+
+<div class = "block">
+<p> 1 </p>
+<p> 2 </p>
+</div>
+Get the link to the first paragraph from the div with the block class.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div class = "block">
+<p> 1 </p>
+<p> 2 </p>
+</div>
+
+<script>
+let p1 = document.querySelector ('. block p');
+console.log (p1);
+</script>
+</body>
+</html>
+Target 153.4
+
+Given the following HTML:
+
+<p class = "www"> text </p>
+<p class = "www"> text </p>
+Get a link to the first paragraph with the www class.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p class = "www"> text </p>
+<p class = "www"> text </p>
+
+<script>
+let p1 = document.querySelector ('. www');
+console.log (p1);
+</script>
+</body>
+</html>
+# button1 '); let button2 = document.querySelector ('# button2');
+
+let button3 = document.querySelector ('# button3');
+button1.addEventListener ('click', function () {
+warning ('1');
+});
+
+button2.addEventListener ('click', function () {
+warning ('2');
+});
+
+button3.addEventListener ('click', function () {
+warning ('3');
+});
+</script>
+</body>
+</html>
+Target 155.1
+
+A button is given. By double-clicking on it, display a message on the screen.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<input id = "button1" type = "submit">
+
+<script>
+let button1 = document.querySelector ('# button1');
+button1.addEventListener ('dblclick', function () {
+alert ('1');
+});
+
+
+</script>
+</body>
+</html>
+Target 155.2
+
+A button is given. When you hover over it, display a message on the screen.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<input id = "button1" type = "submit">
+
+<script>
+let button1 = document.querySelector ('# button1');
+button1.addEventListener ('mouse over', function () {
+warning ('1');
+});
+
+
+</script>
+</body>
+</html>
+Target 155.3
+
+A button is given. When the cursor leaves it, you can display a message on the screen.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<input id = "button1" type = "submit">
+
+<script>
+let button1 = document.querySelector ('# button1');
+button1.addEventListener ('mouseout', function () {
+warning ('1');
+});
+
+
+</script>
+</body>
+</html>
+Target 156.1
+
+Given the following HTML code:
+
+<input id = "button1" type = "submit" value = "button1">
+<input id = "button2" type = "submit" value = "button2">
+The following functions are given:
+
+function func1 () {
+alert (1);
+}
+
+function func2 () {
+alert (2);
+}
+Make it so that when the first button is clicked, the func1 function is executed, and when the second button is clicked, the func2 function is executed.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<input id = "button1" type = "submit" value = "button1">
+<input id = "button2" type = "submit" value = "button2"> '); # button1 let button1 = document.querySelector ('
+
+<script>
+
+let button2 = document.querySelector ('# button2');
+
+button1.addEventListener ('click', func1);
+button2.addEventListener ('click', func2);
+func1 () {
+warning (1);
+}
+
+func2 () {
+alert (2);
+}
+
+</script>
+</body>
+</html>
+Target 157.1
+
+Given 5 paragraphs:
+
+<p id = "elem1"> text </p>
+<p id = "elem2"> text </p>
+<p id = "elem3"> text </p>
+<p id = "elem4"> text </p>
+<p id = "elem5"> text </p>
+Next function:
+
+function func () {
+alert ('message');
+}
+Link this function to all 5 paragraphs.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = "elem1"> text </p>
+<p id = "elem2"> text </p>
+<p id = "elem3"> text </p>
+<p id = "elem4">
+text </p> <p id = "elem5"> text </p>
+<script>
+let p1 = document.querySelector ('# elem1');
+let p2 = document.querySelector ('# elem2');
+let p3 = document.querySelector ('# elem3');
+let p4 = document.querySelector ('# elem4');
+let p5 = document.querySelector ('# elem5');
+p1.addEventListener ('click', function);
+p2.addEventListener ('click', function);
+p3.addEventListener ('click', function);
+p4.addEventListener ('click', function);
+p5.addEventListener ('click', function);
+func () {
+warning ('message');
+}
+</script>
+</body>
+</html>
+
+}
+
+func2 () {
+warning ('2');
+}
+
+func3 () {
+warning ('3');
+}
+</script>
+</body>
+</html>
+
+Target 158.2
+
+A button is given. Bind three anonymous double-click handlers to it. Let the first handler output the number 1, the second handler output the number 2, and the third output the number 3.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<button id = 'elem'
+
+type = 'submit'> Submit </button>
+<script>
+let elem = document.querySelector ('# elem');
+elem.addEventListener ('click', function () {
+alert (1);
+});
+elem.addEventListener ('click', function () {
+alert (2);
+});
+elem.addEventListener ('click', function () {
+alert (3);
+}); </html> </body>
+
+</script>
+
+
+
+</html>
+
+
+
+elem.addEventListener ('click', function () {
+alert (p1.innerHTML);
+})
+elem1.addEventListener ('click', function () {
+alert (p2.innerHTML);
+})
+</script>
+</body>
+</html>
+
+
+elem.addEventListener ('click', function () {
+alert (p1.innerHTML = 'hello');
+})
+elem1.addEventListener ('click', function () {
+alert (p2.innerHTML = 'bye');
+})
+</script>
+</body>
+</html>
+
+p2.addEventListener ('click', function () {
+p2.innerHTML = '1';
+})
+p3.addEventListener ('click', function () {
+p3.innerHTML = '1';
+})
+
+
+</script>
+</ body>
+</html>
+Target 159.5
+
+Given a paragraph and a button. The paragraph contains a number. By clicking on the button, square the value of the paragraph and write it back down.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = 'p1'> 4 </p>
+<button type = 'submit' id = 'elem'> Submit </button>
+
+
+<script>
+
+let p1 = document.querySelector ('# p1');
+let elem = document.querySelector ('# elem');
+
+elem.addEventListener ('click', function () {
+p1.innerHTML * = p1.innerHTML;
+})
+
+
+
+</script>
+</body>
+</html>
+Target 159.6
+
+Given a paragraph with a number and a button. By clicking on the button, add one to the value of the paragraph and write the resulting number back.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = 'p1'> 4 </p>
+<button type = 'submit' id = 'elem'> Submit </button>
+
+<script>
+let p1 = document.querySelector ('# p1');
+let elem = document.querySelector ('# elem');
+
+elem.addEventListener ('click', function () {
+p1.innerHTML = + p1.innerHTML + 1;
+})
+</script>
+</body>
+</html>
+Target 159.7
+
+Given a paragraph with text and a button. After pressing the button, write an exclamation mark at the end of the text of the paragraph.
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = 'p1'> 4sada </p>
+<button type = 'submit' id = 'elem'> Submit </button>
+
+<script>
+let p1 = document.querySelector ('# p1');
+let elem = document.querySelector ('# elem');
+
+elem.addEventListener ('click', function () {
+p1.innerHTML = p1.innerHTML + '!';
+})
+</script>
+</body>
+</html>
+Target 159.8
+
+Modify the previous task so that the exclamation mark is written not at the end of the text, but at the beginning.
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = 'p1'> 4sada </p>
+<button type = 'submit' id = 'elem'> Submit </button>
+
+<script>
+let p1 = document.querySelector ('# p1');
+let elem = document.querySelector ('# elem');
+
+elem.addEventListener ('click', function () {
+p1.innerHTML = '!' + p1.innerHTML;
+})
+</script>
+</body>
+</html>
+Target 159.9
+
+Given a paragraph and a button. According to the button version, write the text '<i> hello </i>' in the paragraph.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = 'p1'> 4sada </p>
+<button type = 'submit' id = 'elem'> Submit </button>
+
+<script>
+let p1 = document.querySelector ('# p1');
+let elem = document.querySelector ('#elem');
+
+elem.addEventListener ('click', function () {
+p1.innerHTML = p1.innerHTML + '<i> hello </i>';
+})
+</script>
+</body>
+</html>
+Target 159.10
+
+Given a paragraph with text and a button. On clicking the button, read the paragraph text, wrap that text in <b> tags, and write the new text back into the paragraph.
+
+<! DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<p id = 'p1'> 4sada </p>
+<button type = 'submit' id = 'elem'> Submit </button>
+
+<script>
+let p1 = document.querySelector ('# p1');
+let elem = document.querySelector ('# elem');
+
+elem.addEventListener ('click', function () {
+p1.innerHTML = '<b>' + elem.innerHTML + '</b>';
+})
+</script> </html>
+</body>
+
+
